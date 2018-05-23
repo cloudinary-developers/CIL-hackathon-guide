@@ -24,7 +24,7 @@ But when you use Cloudinary's artistic filters, we handle all the image processi
 
 OK, so you wanna play too? Here’s a sandbox where you can try out all the available filters on a few images with different kinds of content.
 
-\[View Sandbox Demo\]\(///codepen.io/cloudinary/live/EZYmgz/\)
+[View Sandbox Demo](https://codepen.io/cloudinary/live/EZYmgz/)
 
 ## Taking it up a notch
 
