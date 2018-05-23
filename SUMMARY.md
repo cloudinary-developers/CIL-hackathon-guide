@@ -14,7 +14,7 @@
 * [Cover Art & Fan Pages](thought-starters/cover-art-and-fan-pages.md)
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
 
-## Audio and Video
+## Cloudinary
 
 * [Video Transcoding](audio-and-video/video-transcoding.md)
 * [HTML5 Video Player](audio-and-video/html5-video-player.md)
