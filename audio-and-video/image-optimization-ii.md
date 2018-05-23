@@ -57,8 +57,6 @@ Now we need to adapt this image to fit in three different pages on a website: in
 
 ![Regular portrait image cropping](https://res.cloudinary.com/demo/image/upload/w_300,h_600,c_fill/sofa_cat.jpg) ![Standard image cropping](https://res.cloudinary.com/demo/image/upload/w_800,h_200,c_fill/sofa_cat.jpg) ![Regular square image crop](https://res.cloudinary.com/demo/image/upload/w_400,h_400,c_fill/sofa_cat.jpg)
 
-&lt;/div&gt; &lt;/div&gt;
-
 Setting the `gravity` image cropping parameter to `auto` or using `g_auto` in the following on-the-fly image manipulation URL, generates the optimal cropping result, ensuring that the cat is always included.
 
 ![with\_image: false](https://res.cloudinary.com/demo/image/upload/w_300,h_600,c_fill,g_auto/sofa_cat.jpg)
