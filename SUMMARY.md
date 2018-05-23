@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Capitol Music Innovation Lab Hackathon Guide](README.md)
-* [Capitol Music Innovation Lab Hackathon Guide](capitol-music-innovation-lab-hackathon-guide-1.md)
 
 ## Capitol Innovation Lab Hackathon Guide
 
