@@ -13,24 +13,23 @@
   * [Interactive Lyrics Page](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/interactive-lyrics-page.md)
 
 ## Learning Cloudinary
-
-* Audio and Video
+## Audio and Video
   * [Video Transcoding](learning-cloudinary/audio-and-video/video-transcoding.md)
   * [HTML5 Video Player](learning-cloudinary/audio-and-video/html5-video-player.md)
   * [Media Authentication](learning-cloudinary/audio-and-video/media-authentication.md)
-* AI: Tagging and Recognition
+## AI: Tagging and Recognition
   * [Categorizing Images](learning-cloudinary/ai-tagging-and-recognition/categorizing-images.md)
   * [Content Moderation](learning-cloudinary/ai-tagging-and-recognition/content-moderation.md)
-* Serverless Functions
+## Serverless Functions
   * [Webtask & Cloudinary](learning-cloudinary/serverless-functions/webtask-and-cloudinary.md)
-* Web Performance
+##  Web Performance
   * [Image Optimization I](learning-cloudinary/web-performance/image-optimization-i.md)
   * [Image Optimization II](learning-cloudinary/web-performance/image-optimization-ii.md)
-* Styling and Filtering
+##  Styling and Filtering
   * [Neural Artwork](learning-cloudinary/styling-and-filtering/neural-artwork.md)
   * [Artistic Filters](learning-cloudinary/styling-and-filtering/artistic-filters.md)
   * [Distortion Effects](learning-cloudinary/styling-and-filtering/distortion-effects.md)
-* Uploading Media
+##  Uploading Media
   * [Audio to Waveform Images](learning-cloudinary/uploading-media/audio-to-waveform-images.md)
   * [Social and Cloud Sources](learning-cloudinary/uploading-media/social-and-cloud-sources.md)
 
