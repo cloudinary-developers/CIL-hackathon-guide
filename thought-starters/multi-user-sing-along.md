@@ -1,6 +1,6 @@
 # Multi-User Sing Along
 
-![](https://github.com/cloudinary-developers/canadian-music-week-hackathon-guide-/tree/39a9b1c59498323c6876cd302c24ff20894ab40f/assets/mult-user-sing.png)
+![](../.gitbook/assets/mult-user-sing.png)
 
 Create a virtual _American Idol_ face-off singing competition. Challenge your users to sing along a trending tune, upload and transcode the videos into a series of streams to create an _Acapella_ video.
 
