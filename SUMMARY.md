@@ -30,3 +30,7 @@
 * [Audio to Waveform Images](audio-and-video/audio-to-waveform-images.md)
 * [Social and Cloud Sources](audio-and-video/social-and-cloud-sources.md)
 
+## 7Digital
+
+* Using 7Digital APIS
+
