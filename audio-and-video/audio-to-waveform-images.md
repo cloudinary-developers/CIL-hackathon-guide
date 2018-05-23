@@ -1,6 +1,8 @@
 # Audio to Waveform Images
 
-![Generate waveform of uploaded audio and video files](https://res.cloudinary.com/cloudinary/image/upload/w_500/waveform_post.png) Many social networks, websites and messaging applications allow users to upload a wide variety of media files, and although the majority of files are in the form of images and video clips, a significant minority are audio files. When the website or application subsequently needs to display a thumbnail that describes the uploaded content, images can be cropped and resized down to scale, and a single frame from a video clip can be converted to an image and then also cropped and resized down to scale.
+![Generate waveform of uploaded audio and video files](https://res.cloudinary.com/cloudinary/image/upload/w_500/waveform_post.png)
+
+Many social networks, websites and messaging applications allow users to upload a wide variety of media files, and although the majority of files are in the form of images and video clips, a significant minority are audio files. When the website or application subsequently needs to display a thumbnail that describes the uploaded content, images can be cropped and resized down to scale, and a single frame from a video clip can be converted to an image and then also cropped and resized down to scale.
 
 So what do you display when you need something to uniquely and visually represent an audio file? A useful solution is to display a [waveform](https://en.wikipedia.org/wiki/Waveform) image, which is a visual representation of the audio file and is presented as a graph of the sound amplitude against time.
 
