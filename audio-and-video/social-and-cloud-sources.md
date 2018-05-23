@@ -28,42 +28,48 @@ Here's a live example. Click the button below to see the widget in action and tr
 
 [Upload Images](social-and-cloud-sources.md)
 
-function waitForjQuery\(method\) {  
-if \(window.jQuery\)  
-method\(\);  
-else {  
-setTimeout\(function\(\) { waitForjQuery\(method\) }, 50\);  
-}  
+```javascript
+function waitForjQuery(method) {
+  if (window.jQuery)
+    method();
+  else {
+    setTimeout(function() { waitForjQuery(method) }, 50);
+  }
 }
 
-function insertScript\(src, callback\) {  
-var script = document.createElement\('script'\);  
-script.onload = callback;  
-script.type = 'text/javascript';  
-script.async = true;  
-script.src = src;  
-var s = document.getElementsByTagName\('script'\)\[0\];  
-s.parentNode.insertBefore\(script, s\);  
+function insertScript(src, callback) {
+  var script = document.createElement('script');
+  script.onload = callback;
+  script.type = 'text/javascript';
+  script.async = true;
+  script.src = src;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(script, s);
 }
 
-waitForjQuery\(function\(\) {  
-insertScript\('//widget.cloudinary.com/global/all.js', function\(\){  
-cloudinary.applyUploadWidget\(document.getElementById\('upload\_widget\_opener'\),  
-{  
-cloud\_name: 'hzxyensd5',  
-upload\_preset: 'aoh4fpwm',  
-sources: \[ 'local', 'url', 'camera', 'image\_search',  
-'facebook', 'dropbox', 'google\_photos' \],  
-google\_api\_key: 'AIzaSyDaQj7FO1IQtp9DSB5YNP5jjG6f\_mItEQ4' ,  
-theme: 'white',  
-thumbnails: '.upload\_multiple\_images\_holder',  
-button\_caption: "Upload images - Open the Upload Widget"  
-}, function\(error, result\) { if \(console && console.log\) { console.log\(error, result\) } }\);
+waitForjQuery(function() {
+  insertScript('//widget.cloudinary.com/global/all.js', function() {
+    cloudinary.applyUploadWidget(document.getElementById('upload_widget_opener'),
+      {
+        cloud_name: 'hzxyensd5',
+        upload_preset: 'aoh4fpwm',
+        sources: [ 'local', 'url', 'camera', 'image_search',
+'facebook', 'dropbox', 'google_photos' ],
+        google_api_key: 'AIzaSyDaQj7FO1IQtp9DSB5YNP5jjG6f_mItEQ4' ,
+        theme: 'white',
+        thumbnails: '.upload_multiple_images_holder',
+        button_caption: "Upload images - Open the Upload Widget"
+      },
+      function(error, result) { if (console && console.log) { console.log(error, result) } }
+    );
+  });
+});
 
-}\);  
-}\);
+```
 
+```css
 .blog-post .post-holder a.cloudinary-button { color: white }
+```
 
 To see the upload widget in action with all media sources, including the Camera and Dropbox sources that require HTTPS, see the following [demo page](https://demo.cloudinary.com/default):
 
