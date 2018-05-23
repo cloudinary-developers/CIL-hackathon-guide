@@ -7,6 +7,8 @@
 
 * [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/README.md)
 * [Participating Sponsors](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/participating-sponsors.md)
+
+## Thought Starters
 * [Music Discovery Service](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/music-discovery-service.md)
 * [Multi-User Sing Along](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/multi-user-sing-along.md)
 * [Cover Art & Fan Pages](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/cover-art-and-fan-pages.md)
