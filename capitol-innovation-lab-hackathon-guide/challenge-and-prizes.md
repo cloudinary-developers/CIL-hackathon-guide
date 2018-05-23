@@ -1,14 +1,8 @@
 # Challenge and Prizes
 
-**TBA:  CIL Image** 
+## Our generous sponsors are offering the following challenges and prizes:
 
-**Hackathon details**
-
-
-
-
-
-## Cloudinary **Challenge:**
+### Cloudinary **Challenge:**
 
 ![](https://res.cloudinary.com/cloudinary/image/upload/c_scale,w_300/v1/logo/for_white_bg/cloudinary_logo_for_white_bg.png)
 
