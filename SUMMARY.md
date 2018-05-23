@@ -6,3 +6,5 @@
 
 * How to use this Cookbook Guide
 
+## About The CIL Hackathon
+
