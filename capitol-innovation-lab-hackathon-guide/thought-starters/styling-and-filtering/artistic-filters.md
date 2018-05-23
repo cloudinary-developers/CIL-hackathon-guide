@@ -31,32 +31,26 @@ OK, so you wanna play too? Here’s a sandbox where you can try out all the avai
 Above, you can see how simple it is to apply any of the available artistic filters to any photo, but you don’t have to stop there...
 
 * **double the fun**: If no single artistic filter achieves exactly the effect or impact you are looking for, don’t limit yourself to one. If you want to increase the aggressiveness of a filter, simply chain the same filter in consecutive transformation components. For example, here’s the sandbox photo with no filter, a single `athena` filter, and a double `athena` \(**.../upload/e\_art:athena/e\_art:athena/sandbox.jpg**\) filter. Each application of the filter adds a bit more of a yellow sunny center and slightly more washed out color at the edges.  
-  
 
+![original image - no filter](https://res.cloudinary.com/demo/image/upload/w_200/sandbox.jpg) **Original** ![athena artistic filter](https://res.cloudinary.com/demo/image/upload/w_200/e_art:athena/sandbox.jpg) **Athena X 1** ![athena X 2](https://res.cloudinary.com/demo/image/upload/w_200/e_art:athena/e_art:athena/sandbox.jpg) **Athena X 2**
 
-   ![original image - no filter](https://res.cloudinary.com/demo/image/upload/w_200/sandbox.jpg) **Original** ![athena artistic filter](https://res.cloudinary.com/demo/image/upload/w_200/e_art:athena/sandbox.jpg) **Athena X 1** ![athena X 2](https://res.cloudinary.com/demo/image/upload/w_200/e_art:athena/e_art:athena/sandbox.jpg) **Athena X 2**  
-  
+In the same way, you can also chain transformations to apply two \(or more\) different filters, making the possibilities endless. For example, below we take advantage of the telescopic effect of `zorro` along with the historical grays of `daguerre`.
 
+![Two different filters applied](https://res.cloudinary.com/demo/image/upload/e_art:zorro/e_art:daguerre/w_300/sandbox.jpg)
 
-   In the same way, you can also chain transformations to apply two \(or more\) different filters, making the possibilities endless. For example, below we take advantage of the telescopic effect of `zorro` along with the historical grays of `daguerre`.   
-  
-   ![Two different filters applied](https://res.cloudinary.com/demo/image/upload/e_art:zorro/e_art:daguerre/w_300/sandbox.jpg)   
-  
-   Note that while you will get a similar result if you reverse the order of the chained artistic filters, it is not identical, so it’s always worth trying in both directions.
+Note that while you will get a similar result if you reverse the order of the chained artistic filters, it is not identical, so it’s always worth trying in both directions.
 
 * **mix and match**: You can also achieve unique results by chaining an artistic filter before or after [other effects](https://github.com/cloudinary-developers/canadian-music-week-hackathon-guide-/tree/39a9b1c59498323c6876cd302c24ff20894ab40f/documentation/image_transformations/README.md#applying_image_effects_and_filters), such as `tint`, `blur`, `sharpen`, `pixelate`, `vignette`, `contrast`, `vibrance`, `oil paint` and more. Check out what happens when we decide to both `pixelate` and add the `red_rock` filter to this dog:
 
 ![with\_image: false](https://res.cloudinary.com/demo/image/upload/w_200/e_pixelate:3/e_art:red_rock/dog.jpg)
 
- ![original image](https://res.cloudinary.com/demo/image/upload/w_200/dog.jpg) **Original** ![pixelate effect](https://res.cloudinary.com/demo/image/upload/w_200/e_pixelate:3/dog.jpg) **Pixelate effect** ![pixelate + red\_rock filter effects](https://res.cloudinary.com/demo/image/upload/w_200/e_pixelate:3/e_art:red_rock/dog.jpg) **Pixelate + red\_rock filter**  
-  
+![original image](https://res.cloudinary.com/demo/image/upload/w_200/dog.jpg) **Original** ![pixelate effect](https://res.cloudinary.com/demo/image/upload/w_200/e_pixelate:3/dog.jpg) **Pixelate effect** ![pixelate + red\_rock filter effects](https://res.cloudinary.com/demo/image/upload/w_200/e_pixelate:3/e_art:red_rock/dog.jpg) **Pixelate + red\_rock filter**
 
-
-* **on condition**: Different types of filters may be appropriate for different subject matter. Some are better for outdoors, some for inanimate objects, and so on. Consider using  [conditions](https://cloudinary.com/documentation/image_transformations#specifying_conditions) in your transformation to apply a particular filter only for images with a particular tag. For example, the URL below applies the bright-day effect of the `peacock` filter only if the image has `nature` in it’s tag set:
+* **on condition**: Different types of filters may be appropriate for different subject matter. Some are better for outdoors, some for inanimate objects, and so on. Consider using [conditions](https://cloudinary.com/documentation/image_transformations#specifying_conditions) in your transformation to apply a particular filter only for images with a particular tag. For example, the URL below applies the bright-day effect of the `peacock` filter only if the image has `nature` in it’s tag set:
 
   ![](https://res.cloudinary.com/demo/image/upload/if_!nature!_in_tags,c_fill,h_160,w_240,e_art:peacock/if_else,c_fill,h_400,w_600/sandbox.jpg)
 
-  The `sandbox` image has the `nature` tag, so the `peacock` filter is applied, but if you use the exact same transformation for the 
+  The `sandbox` image has the `nature` tag, so the `peacock` filter is applied, but if you use the exact same transformation for the
 
   [partners\_table.jpg](https://res.cloudinary.com/demo/image/upload/if_!nature!_in_tags,c_fill,h_160,w_240,e_art:peacock/if_else,c_fill,h_400,w_600/partners_table.jpg) image, it is not. You could of course add several `if` components to cover a number of different tags and corresponding filters to apply.
 

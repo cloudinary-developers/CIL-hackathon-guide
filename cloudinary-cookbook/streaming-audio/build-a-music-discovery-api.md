@@ -6,13 +6,13 @@ By Dan Zeitman
 
 In this Step-By-Step Guide we'll show you how to build an API wrapper for multiple web services in order to create a music discovery service backend.
 
-We'll create an express based app, running on **Auth0 Webtask,**  that will combine primary API's from [CLOUDINARY](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) and [7DIGITAL](http://docs.7digital.com/#catalogue).   In this demonstration, we're going to build a series of api endpoints that will be hosted on Auth0's Webtask. The design pattern is based off Express so it will be familiar to many.
+We'll create an express based app, running on **Auth0 Webtask,** that will combine primary API's from [CLOUDINARY](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) and [7DIGITAL](http://docs.7digital.com/#catalogue). In this demonstration, we're going to build a series of api endpoints that will be hosted on Auth0's Webtask. The design pattern is based off Express so it will be familiar to many.
 
 The 7Digital APIs provide many methods for browsing and streaming a catalog of tracks made available by Capitol Music Group \(CMG\). Capitol Music Group \(CMG\) is comprised of Capitol Records, Virgin Records, Motown Records, Blue Note Records, Astralwerks, Harvest Records, Capitol Christian Music Group, and CMG’s independent distribution division, Caroline.
 
-The Cloudinary API's provide an end-to-end image solution for managing and transformation  image and video assets. 
+The Cloudinary API's provide an end-to-end image solution for managing and transformation image and video assets.
 
-With this sample application you'll  be able to Stream Songs like this:
+With this sample application you'll be able to Stream Songs like this:
 
 [https://canadian-music-week.cloudinary.auth0-extend.com/music-discovery-service/song/40349901/stream](https://canadian-music-week.cloudinary.auth0-extend.com/music-discovery-service/song/40349901/stream)
 
@@ -55,17 +55,15 @@ Once you've logged in create an empty task and run it to get familiar with the p
 Auth0 Webtask Setup
 {% endhint %}
 
-Log in to Cloudinary,  you can view your credentials on the main Dashboard:
+Log in to Cloudinary, you can view your credentials on the main Dashboard:
 
-![Copy your credentials](../../../.gitbook/assets/credentials.png)
+![Copy your credentials](https://github.com/cloudinary-developers/CIL-hackathon-guide/tree/7b8704047169e0e3d53f5395b118a3c444ca103f/.gitbook/assets/credentials.png)
 
 Create a new task called:
 
 > **music-discovery-service**
 
 Copy the source code of our [Music Discovery Service API](https://gist.github.com/dzeitman/8e78b79e39de113e75945bd201c6baaa) \(GIST\)
-
-
 
 ```text
 ###Add The Secrets
@@ -121,7 +119,7 @@ https://evangelism.cloudinary.auth0-extend.com/sxsw-music-discovery-service/sear
 
 **/releases/\(artistid\)**
 
-**Returns  releases by that Artist.**
+**Returns releases by that Artist.**
 
 ```text
 https://evangelism.cloudinary.auth0-extend.com/sxsw-music-discovery-service/releases/11319

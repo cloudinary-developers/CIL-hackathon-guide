@@ -1,20 +1,18 @@
-# Introduction
+# Capitol Music Innovation Lab Hackathon Guide
 
 {% hint style="warning" %}
-This Hackathon Guide is a living document which we update frequently with additional info and code examples.   It's meant to be a quick start in learning about Cloudinary and how to integrate other APIs featured at this event.   Please take a few moments to check out and follow the guide's thought starters links and try our sample application examples \(Step-By-Step Guides\) and don't forget to check back here often for new content.
+This Hackathon Guide is a living document which we update frequently with additional info and code examples. It's meant to be a quick start in learning about Cloudinary and how to integrate other APIs featured at this event. Please take a few moments to check out and follow the guide's thought starters links and try our sample application examples \(Step-By-Step Guides\) and don't forget to check back here often for new content.
 {% endhint %}
 
 {% hint style="info" %}
+
 Steps to Success
 
 * [ ] Get a [Cloudinary](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) Account and Credentials
 * [ ] Visit Cloudinary and 7Digital's Table at the Event to get add-on UPGRADE: [http://bit.ly/cmw-upgrade](http://bit.ly/cmw-upgrade)​ and additional API Keys
 * [ ] Join our [Slack Channel ](http://bit.ly/cmw-slack)
-{% endhint %}
 
-
-
-![Canadian Music Week Hackathon](.gitbook/assets/hackathon-header-4.jpg)
+![Canadian Music Week Hackathon](https://github.com/cloudinary-developers/CIL-hackathon-guide/tree/50ef12823ac22c7c1c4002ac6784ae672efb0875/.gitbook/assets/hackathon-header-4.jpg)
 
 The first-ever Canadian Music Week Hackathon brings together coders, developers, hackers, artists, designers and tech specialists for 24 hours of intense work, debates, brainstorming, innovation, camaraderie and fun! Each team is invited to formulate solutions to problems and create new pathways to move the music industry forward.
 

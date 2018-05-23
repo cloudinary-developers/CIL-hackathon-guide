@@ -47,7 +47,7 @@ Some API responses may contain URL's of cover art and artist pictures.
 
 For release**cover art images**the following sizes are supported:
 
-**33, 50, 100, 180, 182, 200, 350, 500 \* **and **800 \***pixels
+**33, 50, 100, 180, 182, 200, 350, 500 \*** and **800 \***pixels
 
 The size of images returned by any API response can be adjusted by adding imageSize parameter to the request
 
@@ -63,9 +63,9 @@ Example
 http://api.7digital.com/1.2/artist/releases?artistId=1&imageSize=350&oauth_consumer_key=YOUR_KEY_HERE
 ```
 
-**Artist **pictures are available in these sizes::
+**Artist** pictures are available in these sizes::
 
-**150, 200 **and **300 **pixels
+**150, 200** and **300** pixels
 
 Please note: The image size is defined by the width of the picture. The height of the picture may vary.
 

@@ -12,7 +12,7 @@ Now, we need to adapt the image to fit the graphic design on every device and br
 
 ![client\_hints: true, with\_image: false](https://res.cloudinary.com/demo/image/upload/c_fill,ar_4:6,g_auto/w_auto,q_auto,f_auto/white_cat.jpg)
 
- ![Standard image crop and encoding](https://demo-res.cloudinary.com/image/upload/c_fill,ar_4:6,dpr_2.0,w_270/white_cat.jpg) ![Automatic image crop and encoding](https://demo-res.cloudinary.com/image/upload/c_fill,ar_4:6,g_auto/w_auto:50:247,dpr_2.0,q_auto,f_auto/white_cat.jpg)
+![Standard image crop and encoding](https://demo-res.cloudinary.com/image/upload/c_fill,ar_4:6,dpr_2.0,w_270/white_cat.jpg) ![Automatic image crop and encoding](https://demo-res.cloudinary.com/image/upload/c_fill,ar_4:6,g_auto/w_auto:50:247,dpr_2.0,q_auto,f_auto/white_cat.jpg)
 
 The image on the left is a standard crop and is delivered as a standard JPEG of the original 2000px image height, resulting in a large **537KB** file. However, the image on the right is perfectly cropped, scaled down to **300px** wide and delivered as an optimized **17KB WebP** image on Chrome \(saving 97% of bandwidth\).
 
@@ -55,7 +55,7 @@ For example, the following photo was uploaded to the cloud:
 
 Now we need to adapt this image to fit in three different pages on a website: in landscape \(e.g., 800x200\), in portrait \(e.g., 300x600\) and as a square \(e.g., 300x300\). As you can see below, standard center cropping brings problematic results, as most of the cat is left out.
 
- ![Regular portrait image cropping](https://res.cloudinary.com/demo/image/upload/w_300,h_600,c_fill/sofa_cat.jpg) ![Standard image cropping](https://res.cloudinary.com/demo/image/upload/w_800,h_200,c_fill/sofa_cat.jpg) ![Regular square image crop](https://res.cloudinary.com/demo/image/upload/w_400,h_400,c_fill/sofa_cat.jpg)
+![Regular portrait image cropping](https://res.cloudinary.com/demo/image/upload/w_300,h_600,c_fill/sofa_cat.jpg) ![Standard image cropping](https://res.cloudinary.com/demo/image/upload/w_800,h_200,c_fill/sofa_cat.jpg) ![Regular square image crop](https://res.cloudinary.com/demo/image/upload/w_400,h_400,c_fill/sofa_cat.jpg)
 
 &lt;/div&gt; &lt;/div&gt;
 
@@ -63,19 +63,19 @@ Setting the `gravity` image cropping parameter to `auto` or using `g_auto` in th
 
 ![with\_image: false](https://res.cloudinary.com/demo/image/upload/w_300,h_600,c_fill,g_auto/sofa_cat.jpg)
 
- ![Automatic portrait image cropping](https://res.cloudinary.com/demo/image/upload/w_300,h_600,c_fill,g_auto/sofa_cat.jpg) ![Intelligent image cropping](https://res.cloudinary.com/demo/image/upload/w_800,h_200,c_fill,g_auto/sofa_cat.jpg) ![Automatic square image crop](https://res.cloudinary.com/demo/image/upload/w_400,h_400,c_fill,g_auto/sofa_cat.jpg)
+![Automatic portrait image cropping](https://res.cloudinary.com/demo/image/upload/w_300,h_600,c_fill,g_auto/sofa_cat.jpg) ![Intelligent image cropping](https://res.cloudinary.com/demo/image/upload/w_800,h_200,c_fill,g_auto/sofa_cat.jpg) ![Automatic square image crop](https://res.cloudinary.com/demo/image/upload/w_400,h_400,c_fill,g_auto/sofa_cat.jpg)
 
 &lt;/div&gt; &lt;/div&gt;
 
 The images above used the popular `fill` crop mode, which tries to keep as much of the original image while cropping. However, sometimes websites prefer to display a more zoomed-in thumbnail emphasizing the person or object in the original image. For example, take a look at the following uploaded images:
 
- ![Cat photo](https://res.cloudinary.com/demo/image/upload/w_200,dpr_2.0/sofa_cat.jpg) ![Car photo](https://res.cloudinary.com/demo/image/upload/w_200,dpr_2.0/car_lady_dog.jpg) ![Red bike photo](https://res.cloudinary.com/demo/image/upload/w_200,dpr_2.0/bike.jpg)
+![Cat photo](https://res.cloudinary.com/demo/image/upload/w_200,dpr_2.0/sofa_cat.jpg) ![Car photo](https://res.cloudinary.com/demo/image/upload/w_200,dpr_2.0/car_lady_dog.jpg) ![Red bike photo](https://res.cloudinary.com/demo/image/upload/w_200,dpr_2.0/bike.jpg)
 
 For example, let's create a 300x270 thumbnail of each of the original images. The following images are dynamically created in the cloud using automatic face detection by setting `gravity` to `face` \(`g_face`\).
 
 ![with\_image: false](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_face/sofa_cat.jpg)
 
- ![Face detection based cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_face/sofa_cat.jpg) ![Face detection based cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_face/car_lady_dog.jpg) ![Face detection based cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_face/bike.jpg)
+![Face detection based cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_face/sofa_cat.jpg) ![Face detection based cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_face/car_lady_dog.jpg) ![Face detection based cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_face/bike.jpg)
 
 The results above are nice, but they are not optimal thumbnails for the original photos. We see more of the blurry sofa instead of the nice cat, it's hard to see that there's a dog next to the lady, and no one will know that a red bike was in the original image.
 
@@ -83,7 +83,7 @@ Cloudinary's automatic cropping algorithm in the thumbnail generation mode focus
 
 ![with\_image: false](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_auto/sofa_cat.jpg)
 
- ![Automatically cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_auto/sofa_cat.jpg) ![Smartly cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_auto/car_lady_dog.jpg) ![Intelligently cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_auto,dpr_2.0/bike.jpg)
+![Automatically cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_auto/sofa_cat.jpg) ![Smartly cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_auto/car_lady_dog.jpg) ![Intelligently cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_300,h_270,c_thumb,g_auto,dpr_2.0/bike.jpg)
 
 Try out the [automatic cropping interactive demo page](https://demo.cloudinary.com/?mode=ga) and see the '[Automatic cropping](https://cloudinary.com/documentation/image_transformations#automatic_cropping)' documentation for more details.
 
@@ -109,7 +109,7 @@ Now, setting the `quality` manipulation parameter to `auto` \(`q_auto`\) tells C
 
 The significance of the performance optimization depends on the content of every individual image. For example, the following image weighs **63.7KB** using regular JPEG encoding with a quality of 90, and only **25.1KB** \(a **61%** saving\) with quality set to `auto`, while still looking great.
 
- ![Automatically cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_750,q_90/sofa_cat.jpg) ![Intelligently cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_750,q_auto/sofa_cat.jpg)
+![Automatically cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_750,q_90/sofa_cat.jpg) ![Intelligently cropped thumbnail](https://res.cloudinary.com/demo/image/upload/w_750,q_auto/sofa_cat.jpg)
 
 Furthermore, when a user enables data saving mode, the browser sends the `Save-Data: on` [Client Hint](https://github.com/igrigorik/http-client-hints) request header, and Cloudinary automatically switches to a more aggressive automatic quality level and encoding settings selection.
 

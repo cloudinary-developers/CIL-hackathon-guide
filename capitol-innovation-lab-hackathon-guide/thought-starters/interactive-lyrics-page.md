@@ -4,7 +4,7 @@
 
 Create an interactive lyrics page.
 
-_**Here's a **_[_**transcribed video**_](https://codepen.io/dzeitman/live/PQdWvm)_** for some inspiration!**_
+_**Here's a**_ [_**transcribed video**_](https://codepen.io/dzeitman/live/PQdWvm) _**for some inspiration!**_
 
 ## Choose a Serverless Stack
 

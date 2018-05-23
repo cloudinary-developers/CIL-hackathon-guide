@@ -6,7 +6,7 @@ If you have an application that allows users to upload their own photos, it can 
 
 Identifying images and their content is a process that would take huge amounts of time and resources if performed manually for many images. On the other hand, unlike text with words, images are data files with no meaning for simple software based filtering and require a deeper analysis of the actual meaning of the pixel colors in the image in order to automate the categorization and tagging process.
 
-[Imagga](http://imagga.com/) is a prominent company that develops and offers technologies, services, and online tools for visual image recognition, with technology that includes state-of-the-art machine learning approaches that allow it to be trained in the identification of various visual objects and concepts. **In this post we would like to introduce you to a new add-on for Imagga's automatic image tagging capabilities, fully integrated into Cloudinary's **[**image manipulation**](http://cloudinary.com/documentation/image_transformation_reference)** and management pipeline**.
+[Imagga](http://imagga.com/) is a prominent company that develops and offers technologies, services, and online tools for visual image recognition, with technology that includes state-of-the-art machine learning approaches that allow it to be trained in the identification of various visual objects and concepts. **In this post we would like to introduce you to a new add-on for Imagga's automatic image tagging capabilities, fully integrated into Cloudinary's** [**image manipulation**](http://cloudinary.com/documentation/image_transformation_reference) **and management pipeline**.
 
 ## The Imagga Auto Tagging add-on
 

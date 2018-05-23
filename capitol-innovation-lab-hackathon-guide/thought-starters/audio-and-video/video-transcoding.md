@@ -40,8 +40,6 @@ cloudinary.video("funny_dog", {width: 200, height: 150, gravity: "south", crop: 
 
 \[funny\_dog.mp4 resized to 200x150 with fill and south gravity\] \([https://res.cloudinary.com/demo/video/upload/w\_200,h\_150,c\_fill,g\_south/funny\_dog.mp4](https://res.cloudinary.com/demo/video/upload/w_200,h_150,c_fill,g_south/funny_dog.mp4)\)
 
- {% video %}https://res.cloudinary.com/demo/video/upload/w\_200,h\_150,c\_fill,g\_south/funny\_dog.mp4{% endvideo %}
-
 Resize the video to a width of 300 pixels and a height of 200 pixels using the `pad` cropping mode and use a blue background in the case that the video needs padding:
 
 **NodeJS:**
@@ -50,13 +48,9 @@ Resize the video to a width of 300 pixels and a height of 200 pixels using the `
 cloudinary.video("funny_dog", {width: 300, height: 200, background: "#0e4167", crop: "pad"})
 ```
 
- {% video %}https://res.cloudinary.com/demo/video/upload/w\_300,h\_200,c\_pad,b\_rgb:0e4167/funny\_dog.mp4{% endvideo %}
-
 ### Video overlays, trimming, transcoding and more
 
 Scale the width to 300 pixels, the height to 200 pixels, set the quality to 40 and add an overlay saying "Funny Dog" in Roboto 30px white text starting at the 3 second mark and 10 pixels from the bottom of the video:
-
- {% video %}https://res.cloudinary.com/demo/video/upload/w\_300,h\_200,q\_40/l\_text:Roboto\_30px\_bold:Funny%20Dog,co\_white,g\_south,y\_10,so\_3/funny\_dog.mp4{% endvideo %}
 
 Transcode the video to the `webm` format and apply the best codec settings for web viewing with the `vc_auto` parameter, add the `cloudinary_icon` image overlay with a width of 160 pixels and 10 pixels from the northeast corner with a brightness of 200% and an opacity of 70%, and adjust the total width to 350 pixels and the height to 150 pixels while padding with a blue background:
 
@@ -70,8 +64,6 @@ cloudinary.video("funny_dog", {transformation: [
 ```
 
 [funny\_dog.mp4 padded to 350x150 and transcoded to webm with an overlay](https://res.cloudinary.com/demo/video/upload/vc_auto/l_cloudinary_icon,g_north_east,e_brightness:200,o_70,x_10,y_10,w_160/w_350,h_150,c_pad,b_rgb:0e4167/funny_dog.webm)
-
- {% video %}https://res.cloudinary.com/demo/video/upload/vc\_auto/l\_cloudinary\_icon,g\_north\_east,e\_brightness:200,o\_70,x\_10,y\_10,w\_160/w\_350,h\_150,c\_pad,b\_rgb:0e4167/funny\_dog.mp4{% endvideo %}
 
 There are plenty of additional video and image manipulation options that you can choose from, we have only shown a few here to give a small taste of how easy it is to manipulate your videos. See our [video documentation](https://cloudinary.com/documentation/video_manipulation_and_delivery) for more details and examples.
 

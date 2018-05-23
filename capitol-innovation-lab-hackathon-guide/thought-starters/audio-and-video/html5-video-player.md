@@ -127,7 +127,7 @@ When relevant, you can limit the video length by [trimming long videos](https://
 
 In some cases, adjusting the [quality](http://video_manipulation_and_delivery/#quality_control) and [bitrate](https://cloudinary.com/documentation/video_manipulation_and_delivery#bit_rate_control) settings can also decrease file size without having a significant impact on the visually perceived quality. For example:
 
-_**Changing the quality of an uploaded 9.8 MB mp4 video to 50, or changing the bitrate to 500 kilobits reduced the file size of **_[_**this video**_](https://cloudinary.com/documentation/video_manipulation_and_delivery#quality_control)_** to around 1 MB.**_
+_**Changing the quality of an uploaded 9.8 MB mp4 video to 50, or changing the bitrate to 500 kilobits reduced the file size of**_ [_**this video**_](https://cloudinary.com/documentation/video_manipulation_and_delivery#quality_control) _**to around 1 MB.**_
 
 For videos that you are delivering in their original format, and with no other custom transformations, you can set the `video_codec` to `auto`, to normalize and optimize the video for web, including the audio settings.  
 Alternatively, you can [manually select the video\_codec settings](https://cloudinary.com/documentation/video_manipulation_and_delivery#video_codec_settings).
