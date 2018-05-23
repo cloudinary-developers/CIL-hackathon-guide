@@ -38,7 +38,7 @@ Resize the video to a width of 200 pixels and a height of 150 pixels using the `
 cloudinary.video("funny_dog", {width: 200, height: 150, gravity: "south", crop: "fill"})
 ```
 
-\[funny\_dog.mp4 resized to 200x150 with fill and south gravity\] \([https://res.cloudinary.com/demo/video/upload/w\_200,h\_150,c\_fill,g\_south/funny\_dog.mp4](https://res.cloudinary.com/demo/video/upload/w_200,h_150,c_fill,g_south/funny_dog.mp4)\)
+[funny\_dog.mp4 resized to 200x150 with fill and south gravity](https://res.cloudinary.com/demo/video/upload/w_200,h_150,c_fill,g_south/funny_dog.mp4)
 
 Resize the video to a width of 300 pixels and a height of 200 pixels using the `pad` cropping mode and use a blue background in the case that the video needs padding:
 
