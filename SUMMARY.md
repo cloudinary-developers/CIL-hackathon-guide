@@ -34,3 +34,11 @@
 
 * Using 7Digital APIS
 
+## Tivo
+
+* Using Tivo APIS
+
+## ConsenSys
+
+* Using ConsenSys APIS
+
