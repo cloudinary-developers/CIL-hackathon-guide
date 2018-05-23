@@ -30,7 +30,7 @@
   * [Neural Artwork](learning-cloudinary/styling-and-filtering/neural-artwork.md)
   * [Artistic Filters](learning-cloudinary/styling-and-filtering/artistic-filters.md)
   * [Distortion Effects](learning-cloudinary/styling-and-filtering/distortion-effects.md)
-* [Social and Cloud Sources](learning-cloudinary/social-and-cloud-sources.md)
-* [Audio to Waveform Images](learning-cloudinary/audio-to-waveform-images.md)
 * Uploading Media
+  * [Audio to Waveform Images](learning-cloudinary/uploading-media/audio-to-waveform-images.md)
+  * [Social and Cloud Sources](learning-cloudinary/uploading-media/social-and-cloud-sources.md)
 
