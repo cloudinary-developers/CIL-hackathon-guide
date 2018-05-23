@@ -1,6 +1,6 @@
 # Cover Art & Fan Pages
 
-![](https://github.com/cloudinary-developers/canadian-music-week-hackathon-guide-/tree/39a9b1c59498323c6876cd302c24ff20894ab40f/assets/Imperial-styled.jpg)
+![](../.gitbook/assets/imperial-styled.jpg)
 
 ## Build Styled Cover Art and Fan Pages
 
