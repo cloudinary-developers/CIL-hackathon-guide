@@ -1,16 +1,16 @@
 # Table of contents
+* [Capitol Music Innovation Lab Hackathon Guide](README.md)
 
 * [Capitol Music Innovation Lab Hackathon Guide](README.md)
-* [Capitol Music Innovation Lab Hackathon Guide](capitol-music-innovation-lab-hackathon-guide-1.md)
 
 ## Capitol Innovation Lab Hackathon Guide
 
 * [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/README.md)
-  * [Participating Sponsors](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/participating-sponsors.md)
-  * [Music Discovery Service](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/music-discovery-service.md)
-  * [Multi-User Sing Along](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/multi-user-sing-along.md)
-  * [Cover Art & Fan Pages](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/cover-art-and-fan-pages.md)
-  * [Interactive Lyrics Page](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/interactive-lyrics-page.md)
+* [Participating Sponsors](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/participating-sponsors.md)
+* [Music Discovery Service](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/music-discovery-service.md)
+* [Multi-User Sing Along](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/multi-user-sing-along.md)
+* [Cover Art & Fan Pages](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/cover-art-and-fan-pages.md)
+* [Interactive Lyrics Page](capitol-innovation-lab-hackathon-guide/challenge-and-prizes/interactive-lyrics-page.md)
 
 ## Learning Cloudinary
 ## Audio and Video
