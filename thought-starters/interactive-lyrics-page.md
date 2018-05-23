@@ -1,6 +1,6 @@
 # Interactive Lyrics Page
 
-![](https://github.com/cloudinary-developers/canadian-music-week-hackathon-guide-/tree/39a9b1c59498323c6876cd302c24ff20894ab40f/assets/song-lyrics.jpg)
+![](../.gitbook/assets/song-lyrics.jpg)
 
 Create an interactive lyrics page.
 
