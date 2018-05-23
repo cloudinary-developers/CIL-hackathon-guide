@@ -8,12 +8,18 @@
 * [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes.md)
 * [Participating Sponsors](capitol-innovation-lab-hackathon-guide/participating-sponsors.md)
 * [Thought Starters](capitol-innovation-lab-hackathon-guide/thought-starters/README.md)
+## Thought Starters
   * [Music Discovery Service](capitol-innovation-lab-hackathon-guide/thought-starters/music-discovery-service.md)
   * [Multi-User Sing Along](capitol-innovation-lab-hackathon-guide/thought-starters/multi-user-sing-along.md)
   * [Cover Art & Fan Pages](capitol-innovation-lab-hackathon-guide/thought-starters/cover-art-and-fan-pages.md)
   * [Interactive Lyrics Page](capitol-innovation-lab-hackathon-guide/thought-starters/interactive-lyrics-page.md)
   * [Getting Started](capitol-innovation-lab-hackathon-guide/thought-starters/getting-started.md)
   * [API Cheat Sheet](capitol-innovation-lab-hackathon-guide/thought-starters/api-cheat-sheet.md)
+## API Blueprint and App
+  * [Build a Music Discovery API](cloudinary-cookbook/streaming-audio/build-a-music-discovery-api.md)
+  * [Build an Audio Player](cloudinary-cookbook/streaming-audio/build-an-audio-player.md)
+
+## Learning Cloudinary  
   * Audio and Video
     * [Video Transcoding](capitol-innovation-lab-hackathon-guide/thought-starters/audio-and-video/video-transcoding.md)
     * [HTML5 Video Player](capitol-innovation-lab-hackathon-guide/thought-starters/audio-and-video/html5-video-player.md)
@@ -35,12 +41,6 @@
   * Visualization
     * [Audio to Waveform Images](capitol-innovation-lab-hackathon-guide/thought-starters/visualization/audio-to-waveform-images.md)
 
-## Cloudinary Cookbook
 
-* How to use this Cookbook Guide
-* Streaming Audio
-  * [Build a Music Discovery API](cloudinary-cookbook/streaming-audio/build-a-music-discovery-api.md)
-  * [Build an Audio Player](cloudinary-cookbook/streaming-audio/build-an-audio-player.md)
 
-## Thought Starters
 
