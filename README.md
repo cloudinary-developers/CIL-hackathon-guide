@@ -1,6 +1,6 @@
 # Capitol Music Innovation Lab Hackathon Guide
 
-![](.gitbook/assets/cil-brand.jpg)
+![](.gitbook/assets/cil-masthead.jpg)
 
 When: June 2-3  10am - 4pm  
 Where: Capitol Records – 1750 Vine St, Los Angeles, CA 90028
