@@ -16,19 +16,19 @@
 
 ## Cloudinary
 
-* [Video Transcoding](audio-and-video/video-transcoding.md)
-* [HTML5 Video Player](audio-and-video/html5-video-player.md)
-* [Media Authentication](audio-and-video/media-authentication.md)
-* [Categorizing Images](audio-and-video/categorizing-images.md)
-* [Content Moderation](audio-and-video/content-moderation.md)
-* [Webtask & Cloudinary](audio-and-video/webtask-and-cloudinary.md)
-* [Image Optimization I](audio-and-video/image-optimization-i.md)
-* [Image Optimization II](audio-and-video/image-optimization-ii.md)
-* [Neural Artwork](audio-and-video/neural-artwork.md)
-* [Artistic Filters](audio-and-video/artistic-filters.md)
-* [Distortion Effects](audio-and-video/distortion-effects.md)
-* [Audio to Waveform Images](audio-and-video/audio-to-waveform-images.md)
-* [Social and Cloud Sources](audio-and-video/social-and-cloud-sources.md)
+* [Video Transcoding](cloudinary/video-transcoding.md)
+* [HTML5 Video Player](cloudinary/html5-video-player.md)
+* [Media Authentication](cloudinary/media-authentication.md)
+* [Categorizing Images](cloudinary/categorizing-images.md)
+* [Content Moderation](cloudinary/content-moderation.md)
+* [Webtask & Cloudinary](cloudinary/webtask-and-cloudinary.md)
+* [Image Optimization I](cloudinary/image-optimization-i.md)
+* [Image Optimization II](cloudinary/image-optimization-ii.md)
+* [Neural Artwork](cloudinary/neural-artwork.md)
+* [Artistic Filters](cloudinary/artistic-filters.md)
+* [Distortion Effects](cloudinary/distortion-effects.md)
+* [Audio to Waveform Images](cloudinary/audio-to-waveform-images.md)
+* [Social and Cloud Sources](cloudinary/social-and-cloud-sources.md)
 
 ## 7Digital
 

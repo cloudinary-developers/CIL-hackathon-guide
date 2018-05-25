@@ -4,9 +4,9 @@
 
 ## Build Styled Cover Art and Fan Pages
 
-Use style transfer to generate [neural artwork from images](../audio-and-video/neural-artwork.md) using artist-branded graphics: process fan photos and venue snapshots captured at artist events into amazing cover art and fan pages.
+Use style transfer to generate [neural artwork from images](../cloudinary/neural-artwork.md) using artist-branded graphics: process fan photos and venue snapshots captured at artist events into amazing cover art and fan pages.
 
-Let users compete in fan-boy \| fan-girl [image art contest](https://faas-cloudinary.com/wt-60a287cd40c53f6e56bd60ac8922bc3e-0/style-transfer). Feel free to [fork our project](../audio-and-video/webtask-and-cloudinary.md) and take it up a notch by adding social media sharing and other features.
+Let users compete in fan-boy \| fan-girl [image art contest](https://faas-cloudinary.com/wt-60a287cd40c53f6e56bd60ac8922bc3e-0/style-transfer). Feel free to [fork our project](../cloudinary/webtask-and-cloudinary.md) and take it up a notch by adding social media sharing and other features.
 
 ### Choose a Serverless Stack
 

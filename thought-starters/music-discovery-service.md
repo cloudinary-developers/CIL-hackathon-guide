@@ -4,11 +4,11 @@
 
 ## Build a Music Discovery Service
 
-Create a community-based music sharing and discovery site. Make the focus on user-generated content, let your users [upload](../audio-and-video/social-and-cloud-sources.md), tag and categorize their music.
+Create a community-based music sharing and discovery site. Make the focus on user-generated content, let your users [upload](../cloudinary/social-and-cloud-sources.md), tag and categorize their music.
 
-Engage users with [beautiful visualizations](../audio-and-video/audio-to-waveform-images.md) of the music audio and video tracks. Showcase each video using our [HTML5 Video Player](../audio-and-video/html5-video-player.md). Display beautiful layouts of artist photos, album art and fan photos in [rich and responsive layouts](../audio-and-video/image-optimization-i.md) that are [sized perfectly ](../audio-and-video/image-optimization-ii.md)for users’ devices.
+Engage users with [beautiful visualizations](../cloudinary/audio-to-waveform-images.md) of the music audio and video tracks. Showcase each video using our [HTML5 Video Player](../cloudinary/html5-video-player.md). Display beautiful layouts of artist photos, album art and fan photos in [rich and responsive layouts](../cloudinary/image-optimization-i.md) that are [sized perfectly ](../cloudinary/image-optimization-ii.md)for users’ devices.
 
-Use our powerful APIs to search the fan photos and videos that have been[ auto-tagged and automatically identified](../audio-and-video/categorizing-images.md) upon upload. Add [content moderation](../audio-and-video/content-moderation.md) to ensure that your user uploads meets your community standards.
+Use our powerful APIs to search the fan photos and videos that have been[ auto-tagged and automatically identified](../cloudinary/categorizing-images.md) upon upload. Add [content moderation](../cloudinary/content-moderation.md) to ensure that your user uploads meets your community standards.
 
 ### Choose a Serverless Stack
 
