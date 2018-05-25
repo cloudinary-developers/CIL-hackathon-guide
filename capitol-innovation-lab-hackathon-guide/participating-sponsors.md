@@ -10,7 +10,7 @@
 
 [**Cloudinary**](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) delivers on the premise that images and visuals greatly enhance the user experience of music and video. As a powerful API for media management, we let developers handle images, videos, audio and emerging media types. End-to-end automation includes media selection, upload, analysis, administration, manipulation, optimization and delivery.
 
-![](../.gitbook/assets/tivo_lockup_blk_blue.png)
+![](../.gitbook/assets/untitled-2.png)
 
 At TiVo, we’re always innovating to create the ultimate entertainment experience. When it comes to music, we deliver the personalized, engaging listening experiences fans can’t resist. Our best-in-class [Music Metadata](http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music) covers millions of albums and tracks, and offers standardized IDs, unique descriptors, high-quality imagery and more. Streaming providers can enhance their services, while labels, publishers and distributors can more effectively market and merchandise their catalogs. Around the world, leading brands choose TiVo to deliver the music fans want and introduce them to their next obsession, creating loyal customers in the process. Learn more: [business.tivo.com](https://business.tivo.com)
 

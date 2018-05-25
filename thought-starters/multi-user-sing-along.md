@@ -1,6 +1,6 @@
 # Multi-User Sing Along
 
-![](../.gitbook/assets/mult-user-sing.png)
+![](../.gitbook/assets/mult-user-sing%20%281%29.png)
 
 Create a virtual _American Idol_ face-off singing competition. Challenge your users to sing along a trending tune, upload and transcode the videos into a series of streams to create an _Acapella_ video.
 
