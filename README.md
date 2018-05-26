@@ -9,6 +9,8 @@ Designed to foster innovative ideas and bridge the gap between content creators 
 
 All participants will have access to the state-of-the-art Capitol Recording Studios and a catalog of UMG audio streaming tracks.
 
+\[TBD links to Wayne Shorter + ONR assets?\]
+
 ## Steps to Success
 
 * [ ] Get a [Cloudinary](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) Account and Credentials
