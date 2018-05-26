@@ -8,13 +8,15 @@
 
 ## FOUNDING PARTNERS
 
-![](../.gitbook/assets/founding-partners-logos-long.png)
+![PRESENTING SPONSORS](../.gitbook/assets/founding-partners-logos-long.png)
 
 [**Cloudinary**](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) delivers on the premise that images and visuals greatly enhance the user experience of music and video. As a powerful API for media management, we let developers handle images, videos, audio and emerging media types. End-to-end automation includes media selection, upload, analysis, administration, manipulation, optimization and delivery.
 
 [**Ujo** ](https://ujomusic.com/)provides APIs and developer tools enabling decentralized registration, licensing and access to music.
 
 ## API Sponsors
+
+![API SPONSORS](../.gitbook/assets/api-sponsors-logos.png)
 
 **7Digital** APIs provide many methods for browsing and streaming a catalog of tracks made available by CMG/UMG.
 
@@ -25,4 +27,6 @@
 **Microsoft** was founded in 1975. Our mission is to enable people and businesses throughout the world to realize their full potential by creating technology that transforms the way people work, play, and communicate. We develop and market software, services, and hardware devices that deliver new opportunities, greater convenience, and enhanced value to people's lives.
 
 ## Supporting Partners
+
+
 
