@@ -1,9 +1,10 @@
 # Table of contents
 
-* [Capitol Music Innovation Lab Hackathon Guide](README.md)
+* [Capitol360 Innovation Center Hackathon Guide](README.md)
 
 ## Capitol Innovation Lab Hackathon Guide
 
+* [Arrival Guide](capitol-innovation-lab-hackathon-guide/arrival-guide.md)
 * [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes.md)
 * [Participating Sponsors](capitol-innovation-lab-hackathon-guide/participating-sponsors.md)
 

@@ -1,6 +1,6 @@
-# Capitol Music Innovation Lab Hackathon Guide
+# Capitol360 Innovation Center Hackathon Guide
 
-![](.gitbook/assets/cil-masthead.jpg)
+![](.gitbook/assets/eventbritehackathon.jpg)
 
 When: June 2-3  10am - 4pm  
 Where: Capitol Records – 1750 Vine St, Los Angeles, CA 90028
