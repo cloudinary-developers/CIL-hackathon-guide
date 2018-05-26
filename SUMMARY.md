@@ -4,11 +4,11 @@
 
 ## Capitol360 Innovation Center Hackathon Guide
 
-* [Arrival Guide / Parking](capitol-innovation-lab-hackathon-guide/arrival-guide.md)
-* [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes.md)
-* [Participating Sponsors](capitol-innovation-lab-hackathon-guide/participating-sponsors.md)
-* [Hackathon Event Flow](capitol-innovation-lab-hackathon-guide/event-flow.md)
-* [Special Guests](capitol-innovation-lab-hackathon-guide/key-people.md)
+* [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
+* [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
+* [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
+* [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
+* [Special Guests](capitol360-innovation-center-hackathon-guide/special-guests.md)
 
 ## Thought Starters
 
@@ -19,7 +19,8 @@
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
 
 ## Blueprints
-* [Music Discovery Service](thought-starters/music-discovery-service.md)
+
+* [Discover Music](blueprints/discover-music.md)
 
 ## Cloudinary
 
