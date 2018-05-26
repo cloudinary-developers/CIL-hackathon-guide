@@ -19,7 +19,7 @@
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
 
 ## Blueprints
-
+* [Music Discovery Service](thought-starters/music-discovery-service.md)
 
 ## Cloudinary
 
