@@ -1,4 +1,4 @@
-# Capitol360 Innovation Center Hackathon Guide
+# Capitol 360 Innovation Center Hackathon Guide
 
 ![](.gitbook/assets/eventbritehackathonalllogosfinal-1.jpg)
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Capitol360 Innovation Center Hackathon Guide](README.md)
+* [Capitol 360 Innovation Center Hackathon Guide](README.md)
 
 ## Capitol360 Innovation Center Hackathon Guide
 
