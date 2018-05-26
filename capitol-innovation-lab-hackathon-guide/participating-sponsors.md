@@ -28,5 +28,5 @@
 
 ## Supporting Partners
 
-
+![](../.gitbook/assets/other-partners-logos.png)
 
