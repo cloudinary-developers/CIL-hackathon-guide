@@ -38,6 +38,6 @@ Artists included in this catalog include old and new, and cross genre: **Frank S
 * Art flat scans + illustrations
 
 {% hint style="warning" %}
-This Hackathon Guide is a living document which we update frequently with additional info and code examples. It's meant to be a quick start in learning about Cloudinary and how to integrate other APIs featured at this event. Please take a few moments to check out and follow the guide's thought starters links and try our Blueprint Sample Application examples and don't forget to check back here often for new content.
+This Hackathon Guide is a living document which we update frequently with additional info and code examples. It's meant to be a quick start in learning about Cloudinary and how to integrate other APIs featured at this event. Please take a few moments to check out and follow the guide's thought starters links and try our **Blueprint Sample Application:** [**Discover Music** ](https://cloudinary.gitbook.io/cil-hackathon-guide/blueprints/discover-music) **- complete ready to run example app that integrates APIs from Cloudinary, The 7Digital CMG Catalog, Tivo, Microsoft and more!  Feel free to use, modify and extend our blueprint apps for your Hack.**  And, don't forget to check back here often for new content.
 {% endhint %}
 
