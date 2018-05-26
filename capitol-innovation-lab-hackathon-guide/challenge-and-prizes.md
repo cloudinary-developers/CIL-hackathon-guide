@@ -34,7 +34,7 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 * 4 Bose Headphones awarded to the team that makes best use of Microsoft Technologies
 
-### Gener8tor Final Round Interview:
+### Gener8tor Final Round Interview
 
 * A final round interview to participate in gener8tor’s 12-week Accelerator program with up to $90k in financing
 
