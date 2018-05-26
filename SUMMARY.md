@@ -18,6 +18,9 @@
 * [Cover Art & Fan Pages](thought-starters/cover-art-and-fan-pages.md)
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
 
+## Blueprints
+
+
 ## Cloudinary
 
 * [Video Transcoding](cloudinary/video-transcoding.md)
