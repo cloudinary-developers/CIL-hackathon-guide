@@ -7,6 +7,7 @@
 * [Arrival Guide / Parking](capitol-innovation-lab-hackathon-guide/arrival-guide.md)
 * [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes.md)
 * [Participating Sponsors](capitol-innovation-lab-hackathon-guide/participating-sponsors.md)
+* [Event Flow](capitol-innovation-lab-hackathon-guide/event-flow.md)
 
 ## Thought Starters
 
