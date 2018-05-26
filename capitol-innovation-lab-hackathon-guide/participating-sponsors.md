@@ -16,7 +16,7 @@
 
 ## API Sponsors
 
-![API SPONSORS](../.gitbook/assets/api-sponsors-logos.png)
+![](../.gitbook/assets/api-sponsors-logos.png)
 
 **7Digital** APIs provide many methods for browsing and streaming a catalog of tracks made available by CMG/UMG.
 
