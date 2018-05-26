@@ -1,6 +1,4 @@
-# Key People
+# Special Guests
 
 ## JUDGES
-
-![](../.gitbook/assets/judges.png)
 

@@ -8,7 +8,7 @@
 * [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes.md)
 * [Participating Sponsors](capitol-innovation-lab-hackathon-guide/participating-sponsors.md)
 * [Hackathon Event Flow](capitol-innovation-lab-hackathon-guide/event-flow.md)
-* [Key People](capitol-innovation-lab-hackathon-guide/key-people.md)
+* [Special Guests](capitol-innovation-lab-hackathon-guide/key-people.md)
 
 ## Thought Starters
 
