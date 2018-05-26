@@ -1,5 +1,7 @@
 # Participating Sponsors
 
+![](../.gitbook/assets/umg-logos.png)
+
 **Capitol Music Group \(CMG\)** is comprised of Capitol Records, Virgin Records, Motown Records, Blue Note Records, Astralwerks, Harvest Records, Capitol Christian Music Group, and CMG’s independent distribution division, Caroline. Capitol Music Group is based in Hollywood, California in the iconic Capitol Records Tower, and is a division of Universal Music Group, which is a fully owned subsidiary of Vivendi.
 
 **Capitol Innovation Center** is based in the legendary Capitol Tower and Studios in Hollywood, California, the Capitol Innovation Center is a workspace and slate of events designed to bring together leading thinkers from the music industry, technology eco-system and student community to help drive the future of innovation in music.
