@@ -4,7 +4,7 @@
 
 ## Capitol Innovation Lab Hackathon Guide
 
-* [Arrival Guide](capitol-innovation-lab-hackathon-guide/arrival-guide.md)
+* [Arrival Guide / Parking](capitol-innovation-lab-hackathon-guide/arrival-guide.md)
 * [Challenge and Prizes](capitol-innovation-lab-hackathon-guide/challenge-and-prizes.md)
 * [Participating Sponsors](capitol-innovation-lab-hackathon-guide/participating-sponsors.md)
 
