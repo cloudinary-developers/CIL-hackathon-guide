@@ -8,7 +8,7 @@
 
 ## FOUNDING PARTNERS
 
-![](../.gitbook/assets/founding-partners-logos.png)
+![](../.gitbook/assets/founding-partners-logos-long.png)
 
 [**Cloudinary**](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) delivers on the premise that images and visuals greatly enhance the user experience of music and video. As a powerful API for media management, we let developers handle images, videos, audio and emerging media types. End-to-end automation includes media selection, upload, analysis, administration, manipulation, optimization and delivery.
 
