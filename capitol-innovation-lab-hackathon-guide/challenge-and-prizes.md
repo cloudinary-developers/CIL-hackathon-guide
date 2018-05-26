@@ -22,7 +22,17 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ### LeanSquare Accelerator at Wallifornia MusicTech
 
-**Prizes:**
-
 * Invitation to LeanSquare’s Accelerator program at Wallifornia Music Tech awarded to grand prize winner. Bonus: Flight for 1 person + 2 Wallifornia Pro Tickets
+
+### 
+
+### TiVo **Challenge:**
+
+![](https://res.cloudinary.com/cloudinary/image/upload/c_scale,w_300/v1/logo/for_white_bg/cloudinary_logo_for_white_bg.png)
+
+* 2 TiVo Bolt Boxes to be awarded to the team that makes best use of TiVo's metadata
+
+
+
+
 
