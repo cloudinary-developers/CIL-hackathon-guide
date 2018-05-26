@@ -1,4 +1,8 @@
-# Event Flow
+# Hackathon Event Flow
+
+{% hint style="info" %}
+_Event Flow Subject to Change_
+{% endhint %}
 
 **June 2**
 
