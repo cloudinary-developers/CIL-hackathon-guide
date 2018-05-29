@@ -8,8 +8,25 @@ ConsenSys is a global formation of technologists and entrepreneurs building the 
 
 Ujo is a music platform that uses the ethereum blockchain as the substrate for innovation by empowering artists, digitizing their music rights and metadata, sharing this information in an open environment, thus enabling new applications, products, and services to license their catalogs and pay artists directly with minimal friction.
 
-[https://ujomusic.com](https://ujomusic.com/i) [https://github.com/ujoteam](https://github.com/ujoteam) \(includes the smart contract addresses\). [https://github.com/COALAIP](https://github.com/COALAIP) \(COALA IP is a blockchain-ready, community-driven protocol for intellectual property licensing\) Ujo Registry: 0xf717b2fa8347b865d4954c21fff7b6a448a066b9[https://etherscan.io/address/0xf717b2fa8347b865d4954c21fff7b6a448a066b9](https://etherscan.io/address/0xf717b2fa8347b865d4954c21fff7b6a448a066b9) Ujo Handler: 0x0be87716eda791a5c1f9b73e08b47cee2b43e59f  
-[https://etherscan.io/address/0x0be87716eda791a5c1f9b73e08b47cee2b43e59f](https://etherscan.io/address/0x0be87716eda791a5c1f9b73e08b47cee2b43e59f)Public API endpoints [https://api.ujomusic.com/api/musicreleases](https://api.ujomusic.com/api/musicreleases)[https://api.ujomusic.com/api/musicgroups](https://api.ujomusic.com/api/musicgroups)
+[https://ujomusic.com](https://ujomusic.com/i) 
+
+[https://github.com/ujoteam](https://github.com/ujoteam) \(includes the smart contract addresses\). 
+
+[https://github.com/COALAIP](https://github.com/COALAIP) \(COALA IP is a blockchain-ready, community-driven protocol for intellectual property licensing\) 
+
+Ujo Registry: 0xf717b2fa8347b865d4954c21fff7b6a448a066b9
+
+[https://etherscan.io/address/0xf717b2fa8347b865d4954c21fff7b6a448a066b9](https://etherscan.io/address/0xf717b2fa8347b865d4954c21fff7b6a448a066b9) 
+
+Ujo Handler: 0x0be87716eda791a5c1f9b73e08b47cee2b43e59f
+
+[https://etherscan.io/address/0x0be87716eda791a5c1f9b73e08b47cee2b43e59f](https://etherscan.io/address/0x0be87716eda791a5c1f9b73e08b47cee2b43e59f)
+
+Public API endpoints 
+
+[https://api.ujomusic.com/api/musicreleases](https://api.ujomusic.com/api/musicreleases)
+
+[https://api.ujomusic.com/api/musicgroups](https://api.ujomusic.com/api/musicgroups)
 
 ## Truffle
 
