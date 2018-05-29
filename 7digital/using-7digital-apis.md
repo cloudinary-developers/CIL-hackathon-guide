@@ -6,8 +6,6 @@ description: >-
 
 # Using 7Digital API
 
-
-
 * **Capitol Music Group and its parent Universal Music Group have made a catalog of their songs available for the hackathon**
   * **≈ 1,500 unique artists \(US and Canadian\)**
   * **≈ 4,500 different albums/singles - all with cover artwork**
@@ -19,4 +17,13 @@ description: >-
 * **Each team will be given an API key and secret to access the APIs**
   * **Only the API key is required to browse the catalog**
   * **However, in order to stream the audio you will need to sign the API call with your key and secret**
+
+**Important Information**
+
+* **You need to add the following parameter to all API calls**
+  * **&shopId=2020**
+* **When calling track and release endpoints, always use parameter**
+  * **&usageTypes=adsupportedstreaming**
+* **Terminology**
+  * **Release = Album or Single**
 
