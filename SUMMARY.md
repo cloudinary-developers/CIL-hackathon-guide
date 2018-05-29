@@ -13,7 +13,7 @@
 ## Thought Starters
 
 * [UMG Challenges](thought-starters/umg-challenges.md)
-* [Music Discovery Service](thought-starters/music-discovery-service.md)
+* [Immersive Wayne Shorter Catalog](thought-starters/music-discovery-service.md)
 * [Multi-User Sing Along](thought-starters/multi-user-sing-along.md)
 * [Cover Art & Fan Pages](thought-starters/cover-art-and-fan-pages.md)
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)

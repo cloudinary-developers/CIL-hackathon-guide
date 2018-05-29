@@ -1,14 +1,14 @@
-# Music Discovery Service
+# Immersive Wayne Shorter Catalog
 
-![](http://res.cloudinary.com/de-demo/image/upload/c_scale,w_400/v1507657525/hackathon-guide-music-discovery-service.jpg)
+![](../.gitbook/assets/wayne_shorter_01-1.jpg)
 
-## Build a Music Discovery Service
+## **Build an immersive catalog experience using the Wayne Shorter collection**
 
-Create a community-based music sharing and discovery site. Make the focus on user-generated content, let your users [upload](../cloudinary/social-and-cloud-sources.md), tag and categorize their music.
+Use Blue Note’s extensive, career-spanning collection of music, photos, and film to build an immersive catalog experience for living jazz legend Wayne Shorter.
 
-Engage users with [beautiful visualizations](../cloudinary/audio-to-waveform-images.md) of the music audio and video tracks. Showcase each video using our [HTML5 Video Player](../cloudinary/html5-video-player.md). Display beautiful layouts of artist photos, album art and fan photos in [rich and responsive layouts](../cloudinary/image-optimization-i.md) that are [sized perfectly ](../cloudinary/image-optimization-ii.md)for users’ devices.
+Engage users with beautiful visualizations of the music audio and video tracks. Showcase each video using our [HTML5 Video Player](../cloudinary/html5-video-player.md). Display beautiful layouts of artist photos, album art and fan photos in [rich and responsive layouts](../cloudinary/image-optimization-i.md) that are [sized perfectly ](../cloudinary/image-optimization-ii.md)for users’ devices.
 
-Use our powerful APIs to search the fan photos and videos that have been[ auto-tagged and automatically identified](../cloudinary/categorizing-images.md) upon upload. Add [content moderation](../cloudinary/content-moderation.md) to ensure that your user uploads meets your community standards.
+Contextualize and [visualize](https://cloudinary.gitbook.io/cil-hackathon-guide/~/edit/primary/cloudinary/audio-to-waveform-images) Wayne Shorter’s music using photos, [reviews](http://prod-doc.rovicorp.com/mashery/index.php/Data/music-api/v1.1/song/review), a [timeline](https://github.com/luyilin/vue-cute-timeline), or [unique visualizations](https://pudding.cool/2017/03/miles/) which pull in [related](https://github.com/guoguo12/billboard-charts) [data](http://prod-doc.rovicorp.com/mashery/index.php/Data/Name-API/V1.1). Let users share their favorite photos or films/music exceprts using social sharing.
 
 ### Choose a Serverless Stack
 
