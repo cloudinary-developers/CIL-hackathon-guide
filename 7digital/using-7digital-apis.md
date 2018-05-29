@@ -27,3 +27,5 @@ description: >-
 * **Terminology**
   * **Release = Album or Single**
 
+![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
+
