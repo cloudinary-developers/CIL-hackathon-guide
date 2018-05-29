@@ -28,6 +28,8 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ### TiVo **Challenge:**
 
+![](../.gitbook/assets/tivo_lockup_blk_blue_2.png)
+
 * 2 TiVo Bolt Boxes to be awarded to the team that makes best use of TiVo's metadata
 
 ### Best Use of Microsoft Technologies:
