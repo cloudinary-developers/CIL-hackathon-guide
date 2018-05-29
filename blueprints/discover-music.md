@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/screen-shot-2018-05-29-at-07.36.19.png)
 
-### **Discover Music is a complete, ready-to-run example app that integrates APIs from The 7Digital CMG Catalog, Cloudinary, Microsoft, Tivo, and more!** 
+### **Discover Music is a complete, ready-to-run example app that integrates APIs from The 7Digital UMG Catalog, Cloudinary, Microsoft, Tivo, and more!** 
 
 The app provides an interactive Vue-based front-end, which allows you to search and sort your way through a massive music catalog, supplied by 7Digital. Notable features:
 

@@ -2,9 +2,9 @@
 
 ## Our generous sponsors are offering the following challenges and prizes:
 
-### Grand Prize
+### Grand Prize - Presented by Ujo and Capitol Music Group 
 
-* **First Place**: $2000 cash prize + 5 Ethereum 
+* **First Place**: $2000 cash prize + 5 Ethereum \(presented by Ujo\)
 * **Runner-up**: $1000 cash prize
 
 ### 
