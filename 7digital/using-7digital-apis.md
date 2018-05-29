@@ -29,3 +29,9 @@ description: >-
 
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
 
+| **Documentation** |  |  |
+| --- | --- |
+| [**GET /artist/browse**](http://docs.7digital.com/#_artist_browse_get) |  |  |
+
+
+
