@@ -25,10 +25,8 @@ If you're ubering, please enter via the back gate beyond the mural on the south 
 ![](../.gitbook/assets/towerparking-directions.jpg)
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+ Please check back frequently for potential changes
 {% endhint %}
-
-
 
 
 
