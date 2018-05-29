@@ -6,7 +6,7 @@ description: >-
 
 # Using 7Digital API
 
-* **Capitol Music Group and its parent Universal Music Group have made a catalog of their songs available for the hackathon**
+* **Capitol Music Group and its parent Universal Music Group have made a catalog of their songs available for the Hackathon**
   * **≈ 1,500 unique artists \(US and Canadian\)**
   * **≈ 4,500 different albums/singles - all with cover artwork**
   * **≈ 14,000 tracks - all with full length audio streams**
