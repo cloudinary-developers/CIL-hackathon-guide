@@ -1,7 +1,7 @@
 # Hackathon Event Flow
 
 {% hint style="info" %}
-_Event Flow Subject to Change_
+_Event Flow Subject to Change. All programming to take place inside Studios A + B, or in the courtyard at Capitol Records, 1750 Vine St._ 
 {% endhint %}
 
 **June 2**
