@@ -17,6 +17,7 @@
 * [Multi-User Sing Along](thought-starters/multi-user-sing-along.md)
 * [Cover Art & Fan Pages](thought-starters/cover-art-and-fan-pages.md)
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
+* [Build an A&R research tool](thought-starters/build-an-a-and-r-research-tool.md)
 
 ## Blueprints
 
