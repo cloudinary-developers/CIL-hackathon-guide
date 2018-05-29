@@ -40,7 +40,7 @@
 
 ## 7Digital
 
-* Using 7Digital APIS
+* [Using 7Digital API](7digital/using-7digital-apis.md)
 
 ## Tivo
 
