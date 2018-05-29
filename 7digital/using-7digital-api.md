@@ -1,9 +1,3 @@
----
-description: >-
-  Describes how to use the 7digital APIs to browse the Capitol Music Group
-  catalog and stream audio
----
-
 # Using 7Digital API
 
 **Capitol Music Group and its parent Universal Music Group have made a catalog of their songs available for the Hackathon**

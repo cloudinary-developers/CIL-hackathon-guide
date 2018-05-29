@@ -13,7 +13,7 @@
 ## Thought Starters
 
 * [UMG Challenges](thought-starters/umg-challenges.md)
-* [Immersive Wayne Shorter Catalog](thought-starters/music-discovery-service.md)
+* [Immersive Wayne Shorter Catalog](thought-starters/immersive-wayne-shorter-catalog.md)
 * [Multi-User Sing Along](thought-starters/multi-user-sing-along.md)
 * [Cover Art & Fan Pages](thought-starters/cover-art-and-fan-pages.md)
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
@@ -41,7 +41,7 @@
 
 ## 7Digital
 
-* [Using 7Digital API](7digital/using-7digital-apis.md)
+* [Using 7Digital API](7digital/using-7digital-api.md)
 
 ## Tivo
 
@@ -49,5 +49,5 @@
 
 ## ConsenSys
 
-* [ConsenSys Hackathon Developer Guide](consensys/using-consensys-apis.md)
+* [ConsenSys Hackathon Developer Guide](consensys/consensys-hackathon-developer-guide.md)
 
