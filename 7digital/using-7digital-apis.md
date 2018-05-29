@@ -29,9 +29,9 @@ description: >-
 
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
 
-| **Documentation** |  |  |
+| **Documentation** | **Definition** | **Sample Call** |
 | --- | --- |
-| [**GET /artist/browse**](http://docs.7digital.com/#_artist_browse_get) |  |  |
+| [**GET /artist/browse**](http://docs.7digital.com/#_artist_browse_get) | **Returns a list of artists from the catalog whose names match the start letter\(s\) supplied** | [**http://api.7digital.com/1.2/artist/browse?letter=p&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/browse?letter=k&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
 
 
 
