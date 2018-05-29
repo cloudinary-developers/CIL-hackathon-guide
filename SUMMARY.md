@@ -37,6 +37,7 @@
 * [Distortion Effects](cloudinary/distortion-effects.md)
 * [Audio to Waveform Images](cloudinary/audio-to-waveform-images.md)
 * [Social and Cloud Sources](cloudinary/social-and-cloud-sources.md)
+* [Build a Cover Image](cloudinary/build-a-cover-image.md)
 
 ## 7Digital
 
