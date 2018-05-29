@@ -32,12 +32,24 @@ description: >-
 
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
 
-| Link to Documentation | Description & Sample Call |
-| --- | --- | --- | --- | --- |
-| [**GET /artist/browse**](http://docs.7digital.com/#_artist_browse_get) | **Returns a list of artists from the catalog whose names match the start letter\(s\) supplied  -** [**http://api.7digital.com/1.2/artist/browse?letter=p&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/browse?letter=k&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
-|  |  |
-|  |  |
-|  |  |
+| **Link to Documentation** | **Description & Sample Call** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [**GET /artist/browse**](http://docs.7digital.com/#_artist_browse_get) | **Returns a list of artists whose names match the start letter\(s\) supplied  -** [**http://api.7digital.com/1.2/artist/browse?letter=p&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/browse?letter=k&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
+| [**GET /artist/search**](http://docs.7digital.com/#_artist_search_get) | **Returns a list of artists that match query string -**  [**http://api.7digital.com/1.2/artist/search?q=kiss&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/search?q=kiss&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
+| [**GET /artist/details**](http://docs.7digital.com/#_artist_details_get) | **Returns metadata for a specific artist -**  [**http://api.7digital.com/1.2/artist/details?artistId=298&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/details?artistId=298&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
+| [**GET /artist/releases**](http://docs.7digital.com/#_artist_releases_get) | **Returns a list of streamable releases for a specific artist -** [**http://api.7digital.com/1.2/artist/releases?artistId=298&shopId=2020&usageTypes=adsupportedstreaming&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/releases?artistId=298&shopId=2020&usageTypes=adsupportedstreaming&oauth_consumer_key=7d4vr6cgb392) |
+| [**GET /artist/toptracks**](http://docs.7digital.com/#_artist_toptracks_get) |  |
+| [**GET /release/details**](http://docs.7digital.com/#_release_details_get) |  |
+| [**GET /release/tracks**](http://docs.7digital.com/#_release_tracks_get) |  |
+| [**GET /track/details**](http://docs.7digital.com/#_track_details_get) |  |
+
+**The release endpoint responses return a link to the album artwork - example from \(1st\) call above**
+
+[**http://artwork-cdn.7static.com/static/img/sleeveart/00/019/274/0001927424\_800.jpg**](http://artwork-cdn.7static.com/static/img/sleeveart/00/019/274/0001927424_800.jpg)
+
+Sizes available - 33, 50, 100, 180, 182, 200, 350, 500 and 800 pixels
+
+_The size of images returned by any API response can be adjusted by adding imageSize parameter to the request_
 
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy-2.jpg)
 
