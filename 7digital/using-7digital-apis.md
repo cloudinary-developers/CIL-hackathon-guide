@@ -29,9 +29,35 @@ description: >-
 
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
 
-| **Documentation** | **Definition** | **Sample Call** |
-| --- | --- |
-| [**GET /artist/browse**](http://docs.7digital.com/#_artist_browse_get) | **Returns a list of artists from the catalog whose names match the start letter\(s\) supplied** | [**http://api.7digital.com/1.2/artist/browse?letter=p&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/browse?letter=k&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
+{% api-method method="get" host="http://api.7digital.com/1.2/artist/browse?letter=k&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392" path="" %}
+{% api-method-summary %}
+artist/browse
+{% endapi-method-summary %}
 
+{% api-method-description %}
 
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
