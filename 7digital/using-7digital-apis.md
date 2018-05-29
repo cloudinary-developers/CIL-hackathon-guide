@@ -28,8 +28,6 @@ description: >-
 * Terminology
   * Release = Album or Single
 
-
-
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
 
 | **Link to Documentation** | **Description & Sample Call** |
@@ -52,4 +50,20 @@ Sizes available - 33, 50, 100, 180, 182, 200, 350, 500 and 800 pixels
 _The size of images returned by any API response can be adjusted by adding imageSize parameter to the request_
 
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy-2.jpg)
+
+**Streaming Audio**
+
+* To stream a track you will need to build your own API call \(streaming link\)
+* You will need to use a 7digital trackId in order to specify the track that you want to stream
+* The 7digital trackId’s are returned in all the release and track endpoint responses
+* Streaming links also need to be signed \(Oauth 1.0\) using your API Key and secret
+* Using this endpoint [GET /stream/catalogue](http://docs.7digital.com/#_stream_catalogue_get) -This is what a typical streaming link looks like -
+
+[**https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994&oauth\_consumer\_key=7d4vr6cgb392&oauth\_nonce=302909674&oauth\_signature\_method=HMAC-SHA1&oauth\_timestamp=1520701629&oauth\_version=1.0&oauth\_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D**](https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994%20&oauth_consumer_key=7d4vr6cgb392%20&oauth_nonce=302909674%20&oauth_signature_method=HMAC-SHA1%20&oauth_timestamp=1520701629&oauth_version=1.0%20&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D)
+
+* **Streaming links can only be used once and timeout after 60 minutes**
+
+**You can use this page to help create a signature for your call -** [**7digital Oauth signature reference**](http://7digital.github.io/oauth-reference-page/)
+
+![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy-3.jpg)
 
