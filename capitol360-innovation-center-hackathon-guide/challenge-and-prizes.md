@@ -30,7 +30,7 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ![](../.gitbook/assets/tivo_lockup_blk_blue_2.png)
 
-* 2 TiVo Bolt Boxes to be awarded to the team that makes best use of TiVo's metadata
+* 2 TiVo Bolt Boxes to be awarded to the team that makes best use of TiVo's metadata - comes with one year of service valued at $150 with a total value of $350 each !
 
 ### Best Use of Microsoft Technologies:
 
