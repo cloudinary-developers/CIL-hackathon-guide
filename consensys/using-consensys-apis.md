@@ -1,4 +1,4 @@
-# ConsenSys x Capitol 360 Hackathon Developer Guide
+# ConsenSys Hackathon Developer Guide
 
 {% hint style="info" %}
 ConsenSys is a global formation of technologists and entrepreneurs building the infrastructure, applications, and practices that enable a decentralized world.

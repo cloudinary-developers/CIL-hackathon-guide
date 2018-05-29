@@ -48,5 +48,5 @@
 
 ## ConsenSys
 
-* [ConsenSys x Capitol 360 Hackathon Developer Guide](consensys/using-consensys-apis.md)
+* [ConsenSys Hackathon Developer Guide](consensys/using-consensys-apis.md)
 
