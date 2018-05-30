@@ -10,7 +10,7 @@
 * [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
 * [Special Guests](capitol360-innovation-center-hackathon-guide/special-guests.md)
 
-## Blueprints 
+## Blueprints
 
 * [Discover Music](blueprints/discover-music.md)
 
@@ -24,7 +24,7 @@
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
 
 ## Cloudinary
-*Video
+
 * [Video Transcoding](cloudinary/video-transcoding.md)
 * [HTML5 Video Player](cloudinary/html5-video-player.md)
 * [Media Authentication](cloudinary/media-authentication.md)
