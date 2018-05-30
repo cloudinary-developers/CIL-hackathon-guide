@@ -9,6 +9,9 @@
 * [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
 * [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
 * [Special Guests](capitol360-innovation-center-hackathon-guide/special-guests.md)
+## Hack Start Blueprints 
+
+* [Discover Music](blueprints/discover-music.md)
 
 ## Thought Starters
 
@@ -19,12 +22,8 @@
 * [Cover Art & Fan Pages](thought-starters/cover-art-and-fan-pages.md)
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
 
-## Blueprints
-
-* [Discover Music](blueprints/discover-music.md)
-
 ## Cloudinary
-
+*Video
 * [Video Transcoding](cloudinary/video-transcoding.md)
 * [HTML5 Video Player](cloudinary/html5-video-player.md)
 * [Media Authentication](cloudinary/media-authentication.md)
