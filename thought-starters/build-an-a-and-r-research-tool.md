@@ -9,7 +9,6 @@ Use the data provided by [the Bandcamp API](https://bandcamp.com/developer) to a
 * [The Bandcamp API](https://bandcamp.com/developer)
 * [A choropleth visualization template](https://bl.ocks.org/mbostock/4060606) using [D3.js](https://d3js.org)
 
-
 ### Choose a Serverless Stack
 
 Resist the urge to create an Express app and deploy a server for this one! Instead, focus on using each API directly within a Single Page App \(SPA\) to take advantage of the responsive design possibilities.
@@ -27,3 +26,4 @@ We know your Hackathon experience will be fun and engaging. Don't forget to shar
 ## Tell us About your Cool Hack
 
 We'd love to hear what you built at the hackathon, we may even showcase it, so [drop us a line](mailto:Dan.Gilmore@cloudinary.com).
+

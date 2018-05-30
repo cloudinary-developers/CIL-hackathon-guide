@@ -5,7 +5,7 @@
 **When**: June 2-3  10am - 4pm  
 **Where**: Capitol Records – 1750 Vine St, Los Angeles, CA 90028
 
-Designed to foster innovative ideas and bridge the gap between content creators and the tech community, this 2- day Hackathon will bring together 80 software developers, and 20 acclaimed producers, songwriters, and influencers in a challenge to incubate new waves of music-related products, services, and content.
+Designed to foster innovative ideas and bridge the gap between content creators and the tech community, this 2- day Hackathon will bring together software developers, and acclaimed producers, songwriters, and influencers in a challenge to incubate new waves of music-related products, services, and content.
 
 All participants will have access to the state-of-the-art Capitol Recording Studios and a catalog of UMG audio streaming tracks.
 
