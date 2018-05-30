@@ -1,6 +1,6 @@
 # UMG Challenges
 
-1. Build an immersive catalog experience for \[to be disclosed Blue Note\] artist
+1. Build an immersive catalog experience for Wayne Shorter
 2. Build an A&R Research Tool that can help us identify the small pockets of momentum globally. \(e.g. Heat map of band camp data / live metrics\)  
 3. Build a tool to help improve licensing / rights management processes \(optional incorporate Blockchain\)
 4. Other strategic priorities for UMG:  Bots, messaging, gamification \| Playlisting tools \| Unique artist marketing tools
