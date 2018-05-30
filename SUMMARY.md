@@ -46,7 +46,7 @@
 
 ## Tivo
 
-* Using Tivo APIS
+* [Using Tivo APIS](tivo/using-tivo-apis.md)
 
 ## ConsenSys
 
