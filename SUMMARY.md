@@ -9,7 +9,8 @@
 * [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
 * [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
 * [Special Guests](capitol360-innovation-center-hackathon-guide/special-guests.md)
-## Hack Start Blueprints 
+
+## Blueprints 
 
 * [Discover Music](blueprints/discover-music.md)
 
