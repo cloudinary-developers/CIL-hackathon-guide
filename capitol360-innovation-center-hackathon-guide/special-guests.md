@@ -8,11 +8,11 @@
 
 ![](../.gitbook/assets/bio3.png)
 
-![](../.gitbook/assets/bio-4.png)
+![](../.gitbook/assets/tuhin-and-gerome.png)
 
 ## CREATORS IN RESIDENCE
 
-Special appearance by Capitol Artist ONR
+
 
 ![](../.gitbook/assets/paradise.png)
 
