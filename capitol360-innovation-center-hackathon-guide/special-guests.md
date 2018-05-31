@@ -10,7 +10,9 @@
 
 ![](../.gitbook/assets/bio-4.png)
 
-## MENTORS
+## CREATORS IN RESIDENCE
 
+Special appearance by Capitol Artist ONR
 
+![](../.gitbook/assets/paradise.png)
 
