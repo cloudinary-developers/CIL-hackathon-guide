@@ -9,8 +9,9 @@
 ## Hackathon: June 2-3
 
 | **Where** | Capitol Records - 1750 vine St, Los Angeles, CA 90028 |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | **Registration** | Saturday June 2 at 11am  |
+| **Mixer** | Sunday June 3 at 4pm |
 | **Key Contacts** | Ching-Ching Chen, 407-921-3213 |
 |  | Travis Laurendine, 504-377-6130 |
 
