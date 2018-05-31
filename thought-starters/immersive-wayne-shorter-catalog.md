@@ -1,7 +1,3 @@
----
-description: BONUS POINTS!!
----
-
 # Immersive Wayne Shorter Catalog
 
 ![](../.gitbook/assets/wayne_shorter_01-1.jpg)
