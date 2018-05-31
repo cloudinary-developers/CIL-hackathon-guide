@@ -9,7 +9,9 @@ Designed to foster innovative ideas and bridge the gap between content creators 
 
 All participants will have access to the state-of-the-art Capitol Recording Studios and a catalog of UMG audio streaming tracks.
 
+{% hint style="success" %}
 **Check back on this page for access to never before seen footage and archival content!!**
+{% endhint %}
 
 ## Steps to Success
 
