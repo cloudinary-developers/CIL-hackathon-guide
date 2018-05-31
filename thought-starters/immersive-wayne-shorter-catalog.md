@@ -10,6 +10,10 @@ Engage users with beautiful visualizations of the music audio and video tracks. 
 
 Contextualize and [visualize](https://cloudinary.gitbook.io/cil-hackathon-guide/~/edit/primary/cloudinary/audio-to-waveform-images) Wayne Shorter’s music using photos, [reviews](http://prod-doc.rovicorp.com/mashery/index.php/Data/music-api/v1.1/song/review), a [timeline](https://github.com/luyilin/vue-cute-timeline), or [unique visualizations](https://pudding.cool/2017/03/miles/) which pull in [related](https://github.com/guoguo12/billboard-charts) [data](http://prod-doc.rovicorp.com/mashery/index.php/Data/Name-API/V1.1). Let users share their favorite photos or films/music exceprts using social sharing.
 
+{% hint style="success" %}
+BONUS POINTS FOR THIS CHALLENGE 
+{% endhint %}
+
 ### Choose a Serverless Stack
 
 Resist the urge to create an Express app and deploy a server for this one! Instead, focus on using each API directly within a Single Page App \(SPA\) to take advantage of the responsive design possibilities.
