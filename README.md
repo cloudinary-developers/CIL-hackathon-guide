@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/eventbritehackathonwhackfest.jpg)
 
-**When**: June 2-3  11am Saturday - 4pm Sunday  
+**When**: June 2-3  11am Saturday - 6:30pm Sunday  
 **Where**: Capitol Records – 1750 Vine St, Los Angeles, CA 90028
 
 Designed to foster innovative ideas and bridge the gap between content creators and the tech community, this 2- day Hackathon will bring together software developers, and acclaimed producers, songwriters, and influencers in a challenge to incubate new waves of music-related products, services, and content.
