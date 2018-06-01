@@ -10,7 +10,7 @@ TiVo Music API Documentation
 
 TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from the sample application to return a JSON response from any of the API endpoints in the list.
 
-For example, use the 'Name ID' from the CSV below to retrieve artist styles, themes, moods, etc. using the 'Name' methods \(scroll toward the end of the IO-Docs page\).
+For example, use the 'Name ID' from the CSV below to retrieve artist styles, themes, moods, etc. using the 'Name' methods \(scroll toward the end of the IO-Docs page\).  
 
 LyricFind API Documentation
 
@@ -26,11 +26,15 @@ Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into yo
 
 TiVo Music ID Breakdown
 
-'MN' = Artist ID - TiVo's 'Name' or Artist ID helps to uniquely identify artists across the music industry.  Our 'Name' ID represents an individual, group, organization, or character that contributes or exists within the universe of music.
+'MN' = Artist ID - TiVo's 'Name' or Artist ID helps to uniquely identify artists across the music industry.  Our 'Name' ID represents an individual, group, organization, or character that contributes or exists within the universe of music.  For example, Wayne Shorter = MN0000250435
 
 Use this ID to retrieve artist metadata such as the following: AKAs/aliases, associated artists, collaborators, contemporaries, discographies, followers, group members, images, influencers, member of \(if the artist has been part of a group\), moods, biographies, music credits, music styles, similar artists, songographies, and themes.
 
-'MW' = Album ID - TiVo's Album ID helps to uniquely identify albums - an album represents musical works \(one or more audio tracks\) produced by an artist or group of artists. Albums are conceptual entities, describing a specific work \(e.g., “The White Album”\) and do not refer to a format \(Vinyl, CD, Digital, etc.\). Each album relates to one or more releases representing the form of the album made available to consumers.
+'MW' = Album ID - TiVo's Album ID helps to uniquely identify albums - an album represents musical works \(one or more audio tracks\) produced by an artist or group of artists. Albums are conceptual entities, describing a specific work \(e.g., “The White Album”\) and do not refer to a format \(Vinyl, CD, Digital, etc.\). Each album relates to one or more releases representing the form of the album made available to consumers.  For example, the following two Wayne Shorter albums and our associated metadata - 
+
+Speak No Evil = Album ID MW0000247834 - credits, moods, review, releases, similar, styles, themes
+
+Without A Net = Album ID MW0002445530 - credits, moods, review, releases, styles, themes
 
 'MR' - Release ID - TiVo's Release ID defines releases of an album, either physical or digital.  Our Release ID will also be associated with an industry standard UPC Product Code which can be used as a common identifier between 7Digital and TiVo !  Note: UPC values returned by 7Digital APIs may have leading zeros which should be stripped to return release metadata from the TiVo Music APIs.
 
