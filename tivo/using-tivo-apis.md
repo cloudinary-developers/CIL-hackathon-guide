@@ -44,7 +44,7 @@ Use this ID to retrieve artist metadata such as the following: AKAs/aliases, ass
 
 'SI' - Composition ID -   TiVo's Composition ID isn't used as part of our API however it can be used to create a unique discovery experience using cover songs across genre boundaries.  For example, the song 'Ain't No Sunshine' has been covered by numerous artists over the years and we now give you the ability to easily find all covers for this song in the catalog since they share the same Composition ID.
 
-The Composition ID 'SI0005189120' represents this song and using the spreadsheet, we can see it has been covered by all of the following artists in the Capitol360 Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.
+The Composition ID 'SI0005189120' represents this song and using the spreadsheet, we can see it has been covered by all of the following artists in the Capitol360 Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.  Use the ISRC with the 7Digital to stream all of these covers.
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
