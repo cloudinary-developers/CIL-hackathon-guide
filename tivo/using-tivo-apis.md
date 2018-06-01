@@ -4,7 +4,7 @@
 
 > At TiVo, we’re always innovating to create the ultimate entertainment experience. When it comes to music, we deliver the personalized, engaging listening experiences fans can’t resist. Our best-in-class Music Metadata covers millions of albums and tracks, and offers standardized IDs, unique descriptors, high-quality imagery and more. Streaming providers can enhance their services, while labels, publishers and distributors can more effectively market and merchandise their catalogs. Around the world, leading brands choose TiVo to deliver the music fans want and introduce them to their next obsession, creating loyal customers in the process.
 
-TiVo Music API Documentation
+**TiVo Music** API Documentation
 
 You may know of us from our former name, AMG/Rovi, and a website that was formerly a property of ours which featured our music metadata \([allmusic.com](https://www.allmusic.com)\).
 
@@ -18,7 +18,7 @@ TiVo Music API Console - this can be used to quickly preview all of our differen
 
 For example, use the 'Name ID' from the CSV below to retrieve artist styles, themes, moods, etc. using the 'Name' methods \(scroll toward the end of the IO-Docs page\).  
 
-LyricFind API Documentation
+**LyricFind** API Documentation
 
 > [http://www.lyricfind.com/documentation/?key=eyJkb2N1bWVudCI6IndlYl9zZXJ2aWNlIiwib3B0aW9ucyI6eyJwcmVtaXVtIjoidHJ1ZSIsIm9sZGtleXR5cGVzIjoiZmFsc2UifX0=\#the-lyric-display-api](https://emea01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.lyricfind.com%2Fdocumentation%2F%3Fkey%3DeyJkb2N1bWVudCI6IndlYl9zZXJ2aWNlIiwib3B0aW9ucyI6eyJwcmVtaXVtIjoidHJ1ZSIsIm9sZGtleXR5cGVzIjoiZmFsc2UifX0%3D%23the-lyric-display-api&data=02%7C01%7CChingChing.Chen%40umusic.com%7Cd5c76183868e484eb22708d5c5d0512d%7Cbbcb6b2f8c7c4e2486e46c36fed00b78%7C1%7C0%7C636632422086228515&sdata=E%2FjiVhqSmlEpaSvin%2BV3Rh1hfsdmhF3WTzFVdgrUJPg%3D&reserved=0)
 
@@ -28,15 +28,13 @@ Here's an example using 'Tangled' from Maroon 5 \(AMG 'T 26901151' - note: the l
 
 [http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:26901151&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4](http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:26901151&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4)
 
-[http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:34762622&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4](http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:34762622&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4)
-
-Cheat Sheet of all artists/albums/tracks used for the Capitol360 Hackathon Catalog
+**Cheat** **Sheet** of all artists/albums/tracks used for the Capitol360 Hackathon Catalog
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB or to simply preview the artists, albums, and tracks in the catalog.
 
 {% embed data="{\"url\":\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQbyyXIbfNvjStvG7Jlhv5M2djSEsc\_YU0cTA5K6NYtabPgtxojrZBTHeyiTAAJ9BDfgToRKYbnh039/pubhtml\",\"type\":\"link\",\"title\":\"Capitol360HackathonCatalog\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.google.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
-TiVo Music ID Breakdown
+**TiVo Music ID** Breakdown
 
 'MN' = Artist ID - TiVo's 'Name' or Artist ID helps to uniquely identify artists across the music industry.  Our 'Name' ID represents an individual, group, organization, or character that contributes or exists within the universe of music.  For example, Wayne Shorter = MN0000250435
 
@@ -61,6 +59,8 @@ Without A Net = Album ID MW0002445530 - credits, moods, review, releases, styles
 'SI' - Composition ID -   TiVo's Composition ID isn't used as part of our API however it can be used to create a unique discovery experience using cover songs across genre boundaries.  For example, the song 'Ain't No Sunshine' has been covered by numerous artists over the years and we now give you the ability to easily find all covers for this song in the catalog since they share the same Composition ID.
 
 The Composition ID 'SI0005189120' represents this song and using the Cheat Sheet above, we can see it has been covered by all of the following artists in the Capitol360 Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.  Use the ISRC with the 7Digital to stream all of these covers.
+
+**Cheat Sheet** - Master Genre/Subgenre/Style List
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
