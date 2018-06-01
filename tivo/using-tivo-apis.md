@@ -6,6 +6,12 @@
 
 TiVo Music API Documentation
 
+You may know of us from our former name, AMG/Rovi, and a website that was formerly a property of ours which featured our music metadata \([allmusic.com](https://www.allmusic.com)\).
+
+We're providing unlimited access \(500 requests/sec, no daily limit\) to the same music metadata powering services such as Spotify, Pandora, Apple Music, etc.
+
+You can use the API Key/Secret included in the Cloudinary sample app for our API Console or for using our APIs outside of the sample application.
+
 > {% embed data="{\"url\":\"http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music\",\"type\":\"link\",\"title\":\"Data/APIs/Rovi-Music - ROVI API\",\"icon\":{\"type\":\"icon\",\"url\":\"http://prod-doc.rovicorp.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
 TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from the sample application to return a JSON response from any of the API endpoints in the list.
@@ -44,9 +50,9 @@ Without A Net = Album ID MW0002445530 - credits, moods, review, releases, styles
 
 'MR' - Release ID - TiVo's Release ID defines releases of an album, either physical or digital.  Our Release ID will also be associated with an industry standard UPC Product Code which can be used as a common identifier between 7Digital and TiVo !  Note: UPC values returned by 7Digital APIs may have leading zeros which should be stripped to return release metadata from the TiVo Music APIs.
 
-'MT' - Track ID - TiVo's Track ID defines information about a specific audio track on a release.  Our Track ID will also be associated with an industry standard ISRC Product Code which can be used as a common identifier between 7Digital and TiVo.
+'MT' - Track ID - TiVo's Track ID defines information about a specific audio track on a release.  Our Track ID will also be associated with an industry standard ISRC Code which can be used as a common identifier between 7Digital and TiVo.  Our track metadata includes genre/subgenre, moods, styles, themes, and we provide a 30 second audio sample.
 
-'SD' - Song ID - TiVo's Song ID isn't used as part of our API however it can be used to filter duplicates and uniquely identify songs on a work level - for example,  the Kanye West song 'Champion' from the album Graduation actually has multiple ISRCs and thus multiple Track IDs associated with it however they'll share a single 'SD' ID - SD0000326091.
+'SD' - Song ID - TiVo's Song ID isn't used as part of our API however it can be used to filter duplicates and uniquely identify songs on a work level - for example,  the Kanye West song 'Champion' from the album Graduation actually has multiple ISRCs and thus multiple Track IDs associated with it however they'll share a single 'SD' ID - SD0000326091.  This can be found in the Cheat Sheet above -   
 
 | Champion | USUM70749083 | MT0027760520 | T 12224802 | SD0000326091 |
 | --- | --- |
@@ -54,7 +60,7 @@ Without A Net = Album ID MW0002445530 - credits, moods, review, releases, styles
 
 'SI' - Composition ID -   TiVo's Composition ID isn't used as part of our API however it can be used to create a unique discovery experience using cover songs across genre boundaries.  For example, the song 'Ain't No Sunshine' has been covered by numerous artists over the years and we now give you the ability to easily find all covers for this song in the catalog since they share the same Composition ID.
 
-The Composition ID 'SI0005189120' represents this song and using the spreadsheet, we can see it has been covered by all of the following artists in the Capitol360 Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.  Use the ISRC with the 7Digital to stream all of these covers.
+The Composition ID 'SI0005189120' represents this song and using the Cheat Sheet above, we can see it has been covered by all of the following artists in the Capitol360 Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.  Use the ISRC with the 7Digital to stream all of these covers.
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
