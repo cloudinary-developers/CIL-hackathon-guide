@@ -3,9 +3,9 @@
 ![](../.gitbook/assets/tivo_lockup_blk_blue_2%20%281%29.png)
 
 > At TiVo, we’re always innovating to create the ultimate entertainment experience. When it comes to music, we deliver the personalized, engaging listening experiences fans can’t resist. Our best-in-class Music Metadata covers millions of albums and tracks, and offers standardized IDs, unique descriptors, high-quality imagery and more. Streaming providers can enhance their services, while labels, publishers and distributors can more effectively market and merchandise their catalogs. Around the world, leading brands choose TiVo to deliver the music fans want and introduce them to their next obsession, creating loyal customers in the process.
->
-> TiVo Music API Documentation
->
+
+TiVo Music API Documentation
+
 > {% embed data="{\"url\":\"http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music\",\"type\":\"link\",\"title\":\"Data/APIs/Rovi-Music - ROVI API\",\"icon\":{\"type\":\"icon\",\"url\":\"http://prod-doc.rovicorp.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
 TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from the sample application to return a JSON response from any of the API endpoints in the list.
@@ -18,9 +18,9 @@ LyricFind API Documentation
 
 Use the 'AMG' T\_ID from the CSV below to retrieve lyrics for a track \(only use the numbers in the ID\).
 
-CSV of TiVo Music & 7Digital IDs for artists/albums/tracks used for the Capitol360 Hackathon Catalog
+Cheat Sheet of all artists/albums/tracks used for the Capitol360 Hackathon Catalog
 
-Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB or to simply preview the artist, album, or track catalog.
+Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB or to simply preview the artists, albums, and tracks in the catalog.
 
 {% embed data="{\"url\":\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQbyyXIbfNvjStvG7Jlhv5M2djSEsc\_YU0cTA5K6NYtabPgtxojrZBTHeyiTAAJ9BDfgToRKYbnh039/pubhtml\",\"type\":\"link\",\"title\":\"Capitol360HackathonCatalog\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.google.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
