@@ -38,9 +38,11 @@ Password: CapitalJune2018
 
 > [http://www.lyricfind.com/documentation/?key=eyJkb2N1bWVudCI6IndlYl9zZXJ2aWNlIiwib3B0aW9ucyI6eyJwcmVtaXVtIjoidHJ1ZSIsIm9sZGtleXR5cGVzIjoiZmFsc2UifX0=\#the-lyric-display-api](https://emea01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.lyricfind.com%2Fdocumentation%2F%3Fkey%3DeyJkb2N1bWVudCI6IndlYl9zZXJ2aWNlIiwib3B0aW9ucyI6eyJwcmVtaXVtIjoidHJ1ZSIsIm9sZGtleXR5cGVzIjoiZmFsc2UifX0%3D%23the-lyric-display-api&data=02%7C01%7CChingChing.Chen%40umusic.com%7Cd5c76183868e484eb22708d5c5d0512d%7Cbbcb6b2f8c7c4e2486e46c36fed00b78%7C1%7C0%7C636632422086228515&sdata=E%2FjiVhqSmlEpaSvin%2BV3Rh1hfsdmhF3WTzFVdgrUJPg%3D&reserved=0)
 
-Use the 'AMG' T\_ID from the CSV below to retrieve lyrics for a track \(only use the numbers in the ID\).  
+Use the ISRC from the Cheat Sheet to retrieve lyrics for a track - certain tracks may include a 'lrc' object which will contain lyric sync timestamps that can be used to sync the lyrics to the audio track from 7Digital.
 
-Here's an example using 'Tangled' from Maroon 5 \(AMG 'T 26901151' - note: the leading 'T' and space has been stripped for the LyricFind API\)
+[http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=isrc:USUM71203819&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4](http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=isrc:USUM71203819&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4)
+
+If the ISRC can't be used to retrieve track lyrics, use the 'AMG' T\_ID from the Cheat Sheet to retrieve lyrics for a track \(only use the numbers in the ID\).  Here's an example using 'Tangled' from Maroon 5 \(AMG 'T 26901151' - note: the leading 'T' and space has been stripped for the LyricFind API\)
 
 [http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:26901151&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4](http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:26901151&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4)
 
