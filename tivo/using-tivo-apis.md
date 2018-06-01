@@ -16,7 +16,7 @@ You can use the API Key/Secret included in the Cloudinary sample app for our API
 
 TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from the sample application to return a JSON response from any of the API endpoints in the list.
 
-For example, use the 'Name ID' from the CSV below to retrieve artist styles, themes, moods, etc. using the 'Name' methods \(scroll toward the end of the IO-Docs page\).  
+For example, use the 'Name ID' from the Cheat Sheet below to retrieve artist styles, themes, moods, etc. using the 'Name' methods \(scroll toward the end of the IO-Docs page\) - Wayne Shorter = MN0000250435.
 
 **TiVo Playlisting Console**
 
