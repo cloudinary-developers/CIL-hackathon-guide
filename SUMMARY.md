@@ -46,7 +46,7 @@
 
 ## Tivo
 
-* [Using Tivo APIS](tivo/using-tivo-apis.md)
+* [Using TiVo & Lyricfind APIs’](tivo/using-tivo-apis.md)
 
 ## ConsenSys
 
