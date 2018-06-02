@@ -88,7 +88,7 @@ In the following example, we're using the song, 'Tangled' by Maroon 5 - adding t
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
-[https://docs.google.com/spreadsheets/d/1PgrGIifacbLokkh7mZgjU2JIi1zUGdVA0HMx4wlJIGs/edit\#gid=0](https://docs.google.com/spreadsheets/d/1PgrGIifacbLokkh7mZgjU2JIi1zUGdVA0HMx4wlJIGs/edit#gid=0)
+[https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n_q/pubhtml)
 
 **Real-Time** **Trending & All-Time Popularity**
 
