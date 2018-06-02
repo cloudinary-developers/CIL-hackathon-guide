@@ -22,20 +22,6 @@ TiVo Music API Console - this can be used to quickly preview all of our differen
 
 For example, use the 'Name ID' to retrieve artist styles, themes, moods, etc. using the 'Name' API \(scroll toward the end of the IO-Docs page\) - Wayne Shorter = MN0000250435 \(for 'include' enter musicStyles,moods,themes\).
 
-**TiVo Playlisting Console**
-
-We're providing an interactive Playlisting Prototype and select assets from our music metadata catalog, to provide interactive experiences around:
-
-* Track, Release, Album, Artist objective and subjective metadata
-* Tones, Themes, Moods, and Similar Artists
-* Artist & UMG album artwork
-
-{% embed data="{\"url\":\"https://discovery-beta-admin-0.digitalsmiths.net/console/login \",\"type\":\"link\",\"title\":\"TiVo Personalized Content Discovery Engagement Console\",\"description\":\"The Personalized Content Discovery Engagement Console for managing Search & Recommendations\",\"icon\":{\"type\":\"icon\",\"url\":\"https://discovery-beta-admin-0.digitalsmiths.net/console/favicon.ico\",\"aspectRatio\":0}}" %}
-
-User: CapitalHackathon
-
-Password: CapitalJune2018
-
 **LyricFind** API Documentation
 
 > [http://www.lyricfind.com/documentation/?key=eyJkb2N1bWVudCI6IndlYl9zZXJ2aWNlIiwib3B0aW9ucyI6eyJwcmVtaXVtIjoidHJ1ZSIsIm9sZGtleXR5cGVzIjoiZmFsc2UifX0=\#the-lyric-display-api](https://emea01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.lyricfind.com%2Fdocumentation%2F%3Fkey%3DeyJkb2N1bWVudCI6IndlYl9zZXJ2aWNlIiwib3B0aW9ucyI6eyJwcmVtaXVtIjoidHJ1ZSIsIm9sZGtleXR5cGVzIjoiZmFsc2UifX0%3D%23the-lyric-display-api&data=02%7C01%7CChingChing.Chen%40umusic.com%7Cd5c76183868e484eb22708d5c5d0512d%7Cbbcb6b2f8c7c4e2486e46c36fed00b78%7C1%7C0%7C636632422086228515&sdata=E%2FjiVhqSmlEpaSvin%2BV3Rh1hfsdmhF3WTzFVdgrUJPg%3D&reserved=0)
