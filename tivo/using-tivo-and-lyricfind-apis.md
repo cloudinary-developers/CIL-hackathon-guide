@@ -14,7 +14,7 @@ You can use the API Key/Secret included in the Cloudinary sample app for our API
 
 API Key - 7d9vkau5knchkpa4z9pkcg7d
 
-API Secret - mmj58xRfZw 7d9vkau5knchkpa4z9pkcg
+API Secret - mmj58xRfZw
 
 > {% embed data="{\"url\":\"http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music\",\"type\":\"link\",\"title\":\"Data/APIs/Rovi-Music - ROVI API\",\"icon\":{\"type\":\"icon\",\"url\":\"http://prod-doc.rovicorp.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
