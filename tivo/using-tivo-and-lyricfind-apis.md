@@ -16,6 +16,8 @@ API Key - 7d9vkau5knchkpa4z9pkcg7d
 
 API Secret - mmj58xRfZw
 
+Although the majority of the APIs that will be needed for your use-case are already a part of the Cloudinary application, we're providing complete API documentation below on all of our various APIs.
+
 > {% embed data="{\"url\":\"http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music\",\"type\":\"link\",\"title\":\"Data/APIs/Rovi-Music - ROVI API\",\"icon\":{\"type\":\"icon\",\"url\":\"http://prod-doc.rovicorp.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
 TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from above to return a JSON response from any of the API endpoints in the list.
@@ -76,7 +78,7 @@ In the following example, we're using Michael Jackson -
 
 In the following example, we're using the album, 'Anthology: The Best Of  Michael Jackson' - 
 
-[http://api.rovicorp.com/data/v1.1/album/info?album=Anthology%3A+The+Best+Of++Michael+Jackson&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d](http://api.rovicorp.com/data/v1.1/album/info?album=Anthology%3A+The+Best+Of++Michael+Jackson&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d)
+[http://api.rovicorp.com/data/v1.1/album/info?album=Anthology%3A+The+Best+Of+Michael+Jackson&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d](http://api.rovicorp.com/data/v1.1/album/info?album=Anthology%3A+The+Best+Of++Michael+Jackson&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d)
 
 In the following example, we're using the song, 'Tangled' by Maroon 5 - adding the artist name to the query ensures we don't retrieve any other songs with the same title by other artists.
 
@@ -87,6 +89,24 @@ In the following example, we're using the song, 'Tangled' by Maroon 5 - adding t
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
 {% embed data="{\"url\":\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml\",\"type\":\"link\",\"title\":\"TiVo-Rovi Master List of Genres, Subgenres, Styles\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.google.com/favicon.ico\",\"aspectRatio\":0}}" %}
+
+**Real-Time** **Trending & All-Time Popularity**
+
+TiVo uses a proprietary content Knowledge Graph to determine assets that are trending and popular based on real-time changes on social media, blogs, news sites and other sources.
+
+These results change throughout the day \(updated approximately every 10-15mins\) depending on what is happening in the world.
+
+Top 100 Trending Artists 
+
+[http://api.veveo.net/music/data/trends?custid=rovi&with\_gid=1&filter\_by\_gid\_type=person](http://api.veveo.net/music/data/trends?custid=rovi&with_gid=1&filter_by_gid_type=person)
+
+Top 100 Trending Tracks
+
+[http://api.veveo.net/music/data/trends?custid=rovi&with\_gid=1&filter\_by\_gid\_type=track](http://api.veveo.net/music/data/trends?custid=rovi&with_gid=1&filter_by_gid_type=track) 
+
+We also have a concept of all-time popularity for an artist or track which is returned by the Cloudinary sample application.
+
+Our all-time artist popularity is based on a scale of 0-800, and our all-time track popularity is based on a scale from 0-300.
 
 
 
