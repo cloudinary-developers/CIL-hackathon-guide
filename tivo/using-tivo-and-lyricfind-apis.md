@@ -6,7 +6,7 @@
 
 **TiVo Music** API Documentation
 
-You may know of us from our former name, AMG/Rovi, and a website that was formerly a property of ours which featured our music metadata \([allmusic.com](https://www.allmusic.com)\).
+You may know of us from our former name, AMG/Rovi, and a website that was formerly a property of ours which features our music metadata \([allmusic.com](https://www.allmusic.com)\).
 
 We're providing unlimited access \(500 requests/sec, no daily limit\) to the same music metadata powering services such as Spotify, Pandora, Apple Music, etc.
 
