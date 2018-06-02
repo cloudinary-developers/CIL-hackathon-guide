@@ -1,6 +1,6 @@
 # Using TiVo & Lyricfind APIs’
 
-![](../../.gitbook/assets/tivo_lockup_blk_blue_2%20%281%29.png)
+![](../.gitbook/assets/tivo_lockup_blk_blue_2%20%281%29.png)
 
 > At TiVo, we’re always innovating to create the ultimate entertainment experience. When it comes to music, we deliver the personalized, engaging listening experiences fans can’t resist. Our best-in-class Music Metadata covers millions of albums and tracks, and offers standardized IDs, unique descriptors, high-quality imagery and more. Streaming providers can enhance their services, while labels, publishers and distributors can more effectively market and merchandise their catalogs. Around the world, leading brands choose TiVo to deliver the music fans want and introduce them to their next obsession, creating loyal customers in the process.
 

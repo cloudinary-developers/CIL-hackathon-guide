@@ -46,8 +46,8 @@
 
 ## Tivo
 
-* [Using TiVo & Lyricfind APIs’](tivo/using-tivo-and-lyricfind-apis/README.md)
-  * TiVo Playlisting
+* [Using TiVo & Lyricfind APIs’](tivo/using-tivo-and-lyricfind-apis.md)
+* TiVo Playlisting
 
 ## ConsenSys
 
