@@ -19,3 +19,8 @@ It allows you to search and sort your way through a massive music catalog, suppl
 
 Feel free to use, modify and extend any part of this blueprint app for your hack. Make it your own!
 
+{% hint style="success" %}
+Learn how to build the Discover Music App with our code lab:    
+[https://discover-music-lab.herokuapp.com](https://discover-music-lab.herokuapp.com)
+{% endhint %}
+
