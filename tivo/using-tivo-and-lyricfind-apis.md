@@ -10,7 +10,7 @@ You may know of us from our former name, AMG/Rovi, and a website that was former
 
 We're providing unlimited access \(500 requests/sec, no daily limit\) to the same music metadata powering services such as Spotify, Pandora, Apple Music, etc.
 
-You can use the API Key/Secret included in the Cloudinary sample app for our API Console or for using our APIs outside of the sample application.
+You can use the API Key/Secret below which is also included in the Cloudinary sample app.
 
 API Key - 7d9vkau5knchkpa4z9pkcg7d
 
