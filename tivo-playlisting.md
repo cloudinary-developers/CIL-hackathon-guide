@@ -10,7 +10,9 @@ We're providing an interactive Playlisting Prototype and select assets from our 
 
 {% embed data="{\"url\":\"https://discovery-beta-admin-0.digitalsmiths.net/console/login\",\"type\":\"link\",\"title\":\"TiVo Personalized Content Discovery Engagement Console\",\"description\":\"The Personalized Content Discovery Engagement Console for managing Search & Recommendations\",\"icon\":{\"type\":\"icon\",\"url\":\"https://discovery-beta-admin-0.digitalsmiths.net/console/favicon.ico\",\"aspectRatio\":0}}" %}
 
-User:
+User: CapitalHackathon
 
-Password:
+Password: CapitalJune2018
+
+
 
