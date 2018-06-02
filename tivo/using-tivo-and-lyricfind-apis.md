@@ -20,7 +20,9 @@ API Secret - mmj58xRfZw
 
 TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from above to return a JSON response from any of the API endpoints in the list.
 
-For example, use the 'Name ID' to retrieve artist styles, themes, moods, etc. using the 'Name' API \(scroll toward the end of the IO-Docs page\) - Wayne Shorter = MN0000250435 \(for 'include' enter musicStyles,moods,themes\).
+For example, use the 'Name ID' to retrieve artist styles, themes, moods, etc. using the 'Name' API \(scroll toward the end of the IO-Docs page\) - Wayne Shorter = Name ID MN0000250435 \(for 'include' enter musicStyles,moods,themes\).
+
+If you're using our APIs outside of the Cloudinary sample application, we provide the following tool to create your own API signature since all requests require a combination of the API Key and API Signature  - [http://developer.rovicorp.com/siggen](http://developer.rovicorp.com/siggen)
 
 **LyricFind** API Documentation
 
@@ -66,9 +68,25 @@ Without A Net = Album ID MW0002445530 - credits, moods, review, releases, styles
 
 The Composition ID 'SI0005189120' represents this song and using the Cheat Sheet above, we can see it has been covered by all of the following artists in the Capitol360 Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.  Use the ISRC with the 7Digital to stream all of these covers.
 
+If you don't have an artist ID, UPC or album ID, ISRC or TrackID, it's still possible to retrieve artist/album/song information using one of the following:
+
+In the following example, we're using Michael Jackson - 
+
+[http://api.rovicorp.com/data/v1.1/name/info?name=Michael+Jackson&country=US&language=en&format=json&apikey=](http://api.rovicorp.com/data/v1.1/name/info?name=Michael+Jackson&country=US&language=en&format=json&apikey=szkmrmm95jgxdkpsjqa7bvnx&sig=)[7d9vkau5knchkpa4z9pkcg7d](http://api.rovicorp.com/data/v1.1/album/info?album=Anthology%3A+The+Best+Of++Michael+Jackson&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d)[&sig=](http://api.rovicorp.com/data/v1.1/name/info?name=Michael+Jackson&country=US&language=en&format=json&apikey=szkmrmm95jgxdkpsjqa7bvnx&sig=)
+
+In the following example, we're using the album, 'Anthology: The Best Of  Michael Jackson' - 
+
+[http://api.rovicorp.com/data/v1.1/album/info?album=Anthology%3A+The+Best+Of++Michael+Jackson&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d](http://api.rovicorp.com/data/v1.1/album/info?album=Anthology%3A+The+Best+Of++Michael+Jackson&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d)
+
+In the following example, we're using the song, 'Tangled' by Maroon 5 - adding the artist name to the query ensures we don't retrieve any other songs with the same title by other artists.
+
+[http://api.rovicorp.com/data/v1.1/song/info?track=Tangled&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d&sig=&artist=Maroon%205](http://api.rovicorp.com/data/v1.1/song/info?track=Tangled&country=US&language=en&format=json&apikey=7d9vkau5knchkpa4z9pkcg7d&sig=d36a53e7377df8dc0f80359270121dfa&artist=Maroon%205)
+
 **Cheat Sheet** - Master Genre/Subgenre/Style List
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
-[https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n_q/pubhtml)
+{% embed data="{\"url\":\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml\",\"type\":\"link\",\"title\":\"TiVo-Rovi Master List of Genres, Subgenres, Styles\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.google.com/favicon.ico\",\"aspectRatio\":0}}" %}
+
+
 
