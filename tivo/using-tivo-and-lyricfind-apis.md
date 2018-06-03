@@ -146,7 +146,11 @@ In the following example, we're using the song, 'Tangled' by Maroon 5 - adding t
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
-[https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n_q/pubhtml)
+{% embed data="{\"url\":\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml\",\"type\":\"link\",\"title\":\"TiVo-Rovi Master List of Genres, Subgenres, Styles\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.google.com/favicon.ico\",\"aspectRatio\":0}}" %}
+
+Cheat Sheet - Master Moods List
+
+[https://docs.google.com/spreadsheets/d/e/2PACX-1vQuXROb4bz9zrXrewjUnspdteGPoawuLMkUz3PcJRgkG5ZNJtjB7qTCw5tRzQs7IJt-Wxh02MUZ-d2i/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vQuXROb4bz9zrXrewjUnspdteGPoawuLMkUz3PcJRgkG5ZNJtjB7qTCw5tRzQs7IJt-Wxh02MUZ-d2i/pubhtml)
 
 **Real-Time** **Trending & All-Time Popularity**
 
