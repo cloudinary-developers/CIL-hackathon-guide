@@ -148,7 +148,7 @@ Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into yo
 
 {% embed data="{\"url\":\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml\",\"type\":\"link\",\"title\":\"TiVo-Rovi Master List of Genres, Subgenres, Styles\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.google.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
-Cheat Sheet - Master Moods List
+**Cheat Sheet** - Master Moods List
 
 [https://docs.google.com/spreadsheets/d/e/2PACX-1vQuXROb4bz9zrXrewjUnspdteGPoawuLMkUz3PcJRgkG5ZNJtjB7qTCw5tRzQs7IJt-Wxh02MUZ-d2i/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vQuXROb4bz9zrXrewjUnspdteGPoawuLMkUz3PcJRgkG5ZNJtjB7qTCw5tRzQs7IJt-Wxh02MUZ-d2i/pubhtml)
 
