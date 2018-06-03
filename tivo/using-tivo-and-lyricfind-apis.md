@@ -72,7 +72,7 @@ If you're using our APIs outside of the Cloudinary sample application, use the f
 
 }
 
-Alternatively, you can use the following node.js function - Math.floor\(new Date\(\) / 1000\) to create a UNIX epoch timestamp and then combine it with our API Key/Secret.
+Alternatively, you can use the following node.js function - Math.floor\(new Date\(\) / 1000\) to create a UNIX epoch timestamp and then concatenate it with our API Key/Secret.  Use a MD5 hash on the entire string to create your signature.
 
 Although the majority of the APIs that will be needed for your use-case are already a part of the Cloudinary application, we're providing complete API documentation below on all of our various APIs.
 
