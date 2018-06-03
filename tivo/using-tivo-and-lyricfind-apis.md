@@ -54,6 +54,26 @@ API Key - 7d9vkau5knchkpa4z9pkcg7d
 
 API Secret - mmj58xRfZw
 
+If you're using our APIs outside of the Cloudinary sample application, use the following JavaScript example that combines the API Key/Secret with the MD5 library here - [http://developer.rovicorp.com/files/md5\_2.js](http://developer.rovicorp.com/files/md5_2.js) .
+
+    function genSig\(\) {
+
+    var apikey = "valid\_apikey";
+
+    var secret = "valid\_secret";
+
+    var curdate = new Date\(\);
+
+    var gmtstring = curdate.toGMTString\(\);
+
+    var utc = Date.parse\(gmtstring\) / 1000;
+
+    return = hex\_md5\(apikey + secret + utc\);
+
+}
+
+Alternatively, you can use the following node.js function - Math.floor\(new Date\(\) / 1000\) to create a UNIX epoch timestamp and then combine it with our API Key/Secret.
+
 Although the majority of the APIs that will be needed for your use-case are already a part of the Cloudinary application, we're providing complete API documentation below on all of our various APIs.
 
 > {% embed data="{\"url\":\"http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music\",\"type\":\"link\",\"title\":\"Data/APIs/Rovi-Music - ROVI API\",\"icon\":{\"type\":\"icon\",\"url\":\"http://prod-doc.rovicorp.com/favicon.ico\",\"aspectRatio\":0}}" %}
