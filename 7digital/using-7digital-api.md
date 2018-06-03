@@ -15,6 +15,11 @@
 
 **Important Information**
 
+
+
+* API Keys 
+  * **`Key = 7d4vr6cgb392`**
+  * **`Secret = m4ntskavq56rddsa`**
 * You need to add the following parameter to all API calls
   * &shopId=2020
 * When calling track and release endpoints, always use parameter
