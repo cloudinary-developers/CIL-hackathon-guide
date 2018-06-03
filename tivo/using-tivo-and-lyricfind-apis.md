@@ -152,7 +152,7 @@ Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into yo
 
 {% embed data="{\"url\":\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQuXROb4bz9zrXrewjUnspdteGPoawuLMkUz3PcJRgkG5ZNJtjB7qTCw5tRzQs7IJt-Wxh02MUZ-d2i/pubhtml\",\"type\":\"link\",\"title\":\"TiVo Music Moods\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.google.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
-Cheat Sheet - Master Themes List
+**Cheat Sheet** - Master Themes List
 
 [https://docs.google.com/spreadsheets/d/e/2PACX-1vREqa\_kWdxbPxj8s1EQTKAm4\_pl7qQ4KOQ\_q8q9u-qeVelj9Ftjm5ly2o8FavWQH\_e-IHneq-wr1LIg/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vREqa_kWdxbPxj8s1EQTKAm4_pl7qQ4KOQ_q8q9u-qeVelj9Ftjm5ly2o8FavWQH_e-IHneq-wr1LIg/pubhtml)
 
