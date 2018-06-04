@@ -15,8 +15,6 @@
 
 **Important Information**
 
-
-
 * API Keys 
   * **`Key = 7d4vr6cgb392`**
   * **`Secret = m4ntskavq56rddsa`**
@@ -64,5 +62,5 @@ _The size of images returned by any API response can be adjusted by adding image
 
 **You can use this page to help create a signature for your call -** [**7digital Oauth signature reference**](http://7digital.github.io/oauth-reference-page/)
 
-![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy-3.jpg)
+![](../.gitbook/assets/cil-oauth-form-example.jpg)
 
