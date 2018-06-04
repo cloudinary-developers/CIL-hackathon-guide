@@ -27,7 +27,7 @@
 
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
 
-**Browsing the catalog**
+**Catalog API Endpoints**
 
 | **Link to Documentation** | **Description & Sample Call** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
