@@ -29,7 +29,7 @@
 
 ## API Schema
 
-![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
+![](../.gitbook/assets/cmw-hackaton-7digital-api-overview-team-3.jpg)
 
 ## Catalog Endpoints
 
