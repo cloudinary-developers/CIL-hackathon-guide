@@ -86,3 +86,11 @@ Here is an example of how to complete that form
 
 ![](../.gitbook/assets/cil-oauth-form-example.jpg)
 
+## Streaming Parts Of a Track
+
+If you want to stream part of a track \(clip\) then you can use the range request on your streaming link
+
+`curl -v -o partial.mp4 -H "Range:bytes=81920-" "{url to aac stream}"`
+
+Please note - you'll need to calculate the number of bytes that you want to start and/or finish at 
+
