@@ -1,5 +1,7 @@
 # Using 7Digital API
 
+## Overview
+
 **Capitol Music Group and its parent Universal Music Group have made a catalog of their songs available for the Hackathon**
 
 * ≈ 1,500 unique artists \(US and Canadian\)
@@ -13,7 +15,7 @@
   * Only the API key is required to browse the catalog
   * However, in order to stream the audio you will need to sign the API call with your key and secret
 
-**Important Information**
+## **Important Information**
 
 * API Keys 
   * **`Key = 7d4vr6cgb392`**
@@ -25,9 +27,11 @@
 * Terminology
   * Release = Album or Single
 
+## API Schema
+
 ![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy.jpg)
 
-**Catalog API Endpoints**
+## Catalog Endpoints
 
 | **Link to Documentation** | **Description & Sample Call** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -40,6 +44,13 @@
 | [**GET /release/tracks**](http://docs.7digital.com/#_release_tracks_get) | **Returns list of tracks for a specific release** [**http://api.7digital.com/1.2/release/tracks?releaseId=1927424&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392&usageTypes=adsupportedstreaming**](http://api.7digital.com/1.2/release/tracks?releaseId=1927424&shopId=2020&oauth_consumer_key=7d4vr6cgb392&usageTypes=adsupportedstreaming) |
 | [**GET /track/details**](http://docs.7digital.com/#_track_details_get) | **Returns metadata for a specific track** [**http://api.7digital.com/1.2/track/details?trackId=5075620&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392&usageTypes=adsupportedstreaming**](http://api.7digital.com/1.2/track/details?trackId=5075620&shopId=2020&oauth_consumer_key=7d4vr6cgb392&usageTypes=adsupportedstreaming) |
 
+For JSON responses
+
+* **`Add “accept: application/json” to your http header request`**
+* **`curl -H “Accept: application/json” ‘`**[**`http://api.7digital.com…`**](about:blank)**`..’`**
+
+## Accessing Album/Single Cover Art
+
 **The release endpoint responses return a link to the album artwork - example from \(1st\) call above**
 
 [**http://artwork-cdn.7static.com/static/img/sleeveart/00/019/274/0001927424\_800.jpg**](http://artwork-cdn.7static.com/static/img/sleeveart/00/019/274/0001927424_800.jpg)
@@ -48,7 +59,9 @@ Sizes available - 33, 50, 100, 180, 182, 200, 350, 500 and 800 pixels
 
 _The size of images returned by any API response can be adjusted by adding imageSize parameter to the request_
 
-![](../.gitbook/assets/capitol-hackaton-7digital-api-overview-master-copy-2.jpg)
+## Catalog Metadata
+
+![](../.gitbook/assets/sxsw-hackaton-7digital-api-overview-wmg-version-1.jpg)
 
 **Streaming Audio**
 
