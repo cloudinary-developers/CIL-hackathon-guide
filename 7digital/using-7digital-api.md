@@ -19,9 +19,9 @@
   * **`Key = 7d4vr6cgb392`**
   * **`Secret = m4ntskavq56rddsa`**
 * You need to add the following parameter to all API calls
-  * `&shopId=2020`
+  * **`&shopId=2020`**
 * When calling track and release endpoints, always use parameter
-  * `&usageTypes=adsupportedstreaming`
+  * **`&usageTypes=adsupportedstreaming`**
 * Terminology
   * Release = Album or Single
 
@@ -50,15 +50,18 @@ _The size of images returned by any API response can be adjusted by adding image
 
 **Streaming Audio**
 
-* To stream a track you will need to build your own API call \(streaming link\)
-* You will need to use a 7digital trackId in order to specify the track that you want to stream
-* The 7digital trackId’s are returned in all the release and track endpoint responses
-* Streaming links also need to be signed \(Oauth 1.0\) using your API Key and secret
-* Using this endpoint [GET /stream/catalogue](http://docs.7digital.com/#_stream_catalogue_get) -This is what a typical streaming link looks like -
+To stream a track you will need to build your own API call to the 7digital streaming service
 
-[**https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994&oauth\_consumer\_key=7d4vr6cgb392&oauth\_nonce=302909674&oauth\_signature\_method=HMAC-SHA1&oauth\_timestamp=1520701629&oauth\_version=1.0&oauth\_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D**](https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994%20&oauth_consumer_key=7d4vr6cgb392%20&oauth_nonce=302909674%20&oauth_signature_method=HMAC-SHA1%20&oauth_timestamp=1520701629&oauth_version=1.0%20&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D)
+* All streaming links need to be "Oauth" signed using the API Key & Secret
+* _**Once generated a streaming link is only valid for 60 minutes and can only be used once**_ 
 
-* **Streaming links can only be used once and timeout after 60 minutes**
+In order to stream a specific track you must specify a 7digital trackId
+
+* 7digital trackId's are returned by the catalog search API endpoints
+
+Documentation on how to build a streaming link can be found here -  [GET /stream/catalogue](http://docs.7digital.com/#_stream_catalogue_get) 
+
+This is what a typical streaming link looks like - \(note this link does not work\)[**`https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994&oauth_consumer_key=7d4vr6cgb392&oauth_nonce=302909674&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1520701629&oauth_version=1.0&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc%3`**](https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994%20&oauth_consumer_key=7d4vr6cgb392%20&oauth_nonce=302909674%20&oauth_signature_method=HMAC-SHA1%20&oauth_timestamp=1520701629&oauth_version=1.0%20&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D)
 
 **You can use this page to help create a signature for your call -** [**7digital Oauth signature reference**](http://7digital.github.io/oauth-reference-page/)
 
