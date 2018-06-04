@@ -61,7 +61,7 @@ _The size of images returned by any API response can be adjusted by adding image
 
 ## Catalog Metadata
 
-![](../.gitbook/assets/sxsw-hackaton-7digital-api-overview-wmg-version-1.jpg)
+![](../.gitbook/assets/sxsw-hackaton-7digital-api-overview-wmg-version-2.jpg)
 
 **Streaming Audio**
 
