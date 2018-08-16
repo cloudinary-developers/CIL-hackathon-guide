@@ -2,7 +2,7 @@
 
 * [Capitol 360 Innovation Center Hackathon Guide](README.md)
 
-## Capitol360 Innovation Center Hackathon Guide
+## Capitol360 June 2018 Hackathon Guide
 
 * [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
 * [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)

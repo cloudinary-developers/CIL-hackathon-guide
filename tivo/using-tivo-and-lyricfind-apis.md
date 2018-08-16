@@ -76,7 +76,7 @@ Alternatively, you can use the following node.js function - Math.floor\(new Date
 
 Although the majority of the APIs that will be needed for your use-case are already a part of the Cloudinary application, we're providing complete API documentation below on all of our various APIs.
 
-> {% embed data="{\"url\":\"http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music\",\"type\":\"link\",\"title\":\"Data/APIs/Rovi-Music - ROVI API\",\"icon\":{\"type\":\"icon\",\"url\":\"http://prod-doc.rovicorp.com/favicon.ico\",\"aspectRatio\":0}}" %}
+>
 
 TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from above to return a JSON response from any of the API endpoints in the list.
 
@@ -121,7 +121,7 @@ Without A Net = Album ID MW0002445530 - credits, moods, review, releases, styles
 'SD' - Song ID - TiVo's Song ID isn't used as part of our API however it can be used to filter duplicates and uniquely identify songs on a work level - for example,  the Kanye West song 'Champion' from the album Graduation actually has multiple ISRCs and thus multiple Track IDs associated with it however they'll share a single 'SD' ID - SD0000326091.  This can be found in the Cheat Sheet above -   
 
 | Champion | USUM70749083 | MT0027760520 | T 12224802 | SD0000326091 |
-| --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Champion | USUM70749084 | MT0041589685 | T 23962028 | SD0000326091 |
 
 'SI' - Composition ID -   TiVo's Composition ID isn't used as part of our API however it can be used to create a unique discovery experience using cover songs across genre boundaries.  For example, the song 'Ain't No Sunshine' has been covered by numerous artists over the years and we now give you the ability to easily find all covers for this song in the catalog since they share the same Composition ID.
