@@ -1,4 +1,6 @@
-# UMG Challenges
+# UMG Challenges - June'18
+
+## **June 2-3 Thought Starters**
 
 1. Build an immersive catalog experience for Wayne Shorter
 2. Build an A&R Research Tool that can help us identify the small pockets of momentum globally. \(e.g. Heat map of band camp data / live metrics\)  
