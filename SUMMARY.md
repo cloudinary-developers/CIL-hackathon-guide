@@ -16,7 +16,6 @@
 
 ## Thought Starters
 
-* [UMG Challenges - Dec'18](thought-starters/umg-challenges-dec18.md)
 * [UMG Challenges - June'18](thought-starters/umg-challenges.md)
 * [Immersive Wayne Shorter Catalog](thought-starters/immersive-wayne-shorter-catalog.md)
 * [Build an A&R research tool](thought-starters/build-an-a-and-r-research-tool.md)
