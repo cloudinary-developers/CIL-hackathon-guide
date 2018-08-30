@@ -2,7 +2,7 @@
 
 * [Capitol 360 Innovation Center Hackathon Guide](README.md)
 
-## Capitol360 June 2018 Hackathon Guide
+## Capitol360 December 2018 Hackathon Guide
 
 * [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
 * [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
@@ -16,8 +16,7 @@
 
 ## Thought Starters
 
-* [UMG Challenges - Dec'18](thought-starters/umg-challenges-dec18.md)
-* [UMG Challenges - June'18](thought-starters/umg-challenges.md)
+* [UMG Challenges](thought-starters/umg-challenges-dec18.md)
 * [Immersive Wayne Shorter Catalog](thought-starters/immersive-wayne-shorter-catalog.md)
 * [Build an A&R research tool](thought-starters/build-an-a-and-r-research-tool.md)
 * [Multi-User Sing Along](thought-starters/multi-user-sing-along.md)

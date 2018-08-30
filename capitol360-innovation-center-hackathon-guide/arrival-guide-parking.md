@@ -1,17 +1,17 @@
 # Arrival Guide / Parking
 
-## API Training Workshop: June 1
+## API Training Workshop: November 6th
 
 | **Where** | UMG Headquarters - 2220 Colorado Ave, Los Angeles, CA 90404 \(Bob Marley Conference Room Floor 1\) |
 | :--- | :--- |
 | **When** | 10am - 2pm    |
 
-## Hackathon: June 2-3
+## Hackathon: December 1st - 2nd
 
 | **Where** | Capitol Records - 1750 vine St, Los Angeles, CA 90028 |
 | :--- | :--- |
-| **Registration** | Saturday June 2 at 11am  |
-| **Mixer** | Sunday June 3 at 4pm |
+| **Registration** | Saturday December 1st, 2018 at 10AM  |
+| **Mixer** | Sunday December 2nd, 2018 @ 5PM |
 | **Key Contacts** | Ching-Ching Chen, 407-921-3213 |
 |  | Travis Laurendine, 504-377-6130 |
 
