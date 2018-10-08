@@ -13,6 +13,8 @@ _If you have an idea for a new Alexa skill, AR/VR immersive experience, music ga
 
 
 
+
+
 ##  **June 2018 Thought Starters** {#june-2-3-thought-starters}
 
 1. Build an immersive catalog experience for Wayne Shorter

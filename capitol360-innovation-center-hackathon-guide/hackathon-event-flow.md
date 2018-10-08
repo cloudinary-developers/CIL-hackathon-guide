@@ -1,10 +1,10 @@
 # Hackathon Event Flow
 
 {% hint style="info" %}
-_Event Flow Subject to Change. All programming to take place inside Studios A + B, or in the courtyard at Capitol Records, 1750 Vine St._ 
+_Check Back Soon!_
 {% endhint %}
 
-**June 2**
+Dec 1
 
 * 10:00AM API, Supporting Sponsors Set Up
 * 11:00AM - 12:45PM Hacker Registration
@@ -20,7 +20,7 @@ _Event Flow Subject to Change. All programming to take place inside Studios A + 
 * 7:30PM - 8:30PM Dinner
 * 8:30PM - Hacking continues overnight
 
-**June 3**
+**Dec 2**
 
 * 7:30AM Breakfast
 * 9:45AM Presentation Pitch Practice Begins

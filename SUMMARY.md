@@ -8,7 +8,6 @@
 * [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
 * [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
 * [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
-* [Special Guests](capitol360-innovation-center-hackathon-guide/special-guests.md)
 
 ## Blueprints
 
@@ -58,4 +57,8 @@
 ## Microsoft
 
 * [Using Microsoft APIs](microsoft/using-microsoft-apis.md)
+
+## Qloo
+
+* [Qloo Developer Guide](qloo/qloo-api-guide.md)
 
