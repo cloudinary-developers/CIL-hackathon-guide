@@ -12,7 +12,7 @@
 ## Blueprints
 
 * [Discover Music](blueprints/discover-music.md)
-* [Training / Workshops](workshops/README.md)
+* [Industry Guides](workshops/README.md)
   * [Music Industry 101](workshops/music-industry-101-sept.-11th-2018.md)
 
 ## Thought Starters

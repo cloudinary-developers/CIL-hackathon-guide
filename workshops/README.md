@@ -1,2 +1,2 @@
-# Training / Workshops
+# Industry Guides
 
