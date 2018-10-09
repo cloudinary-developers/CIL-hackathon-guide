@@ -1,2 +1,2 @@
-# Workshops
+# Training / Workshops
 
