@@ -1,4 +1,4 @@
-# Participating Sponsors
+# Participating Partners
 
 ![](../.gitbook/assets/umg-logos.png)
 
@@ -14,7 +14,7 @@
 
 [**Ujo** ](https://ujomusic.com/)is a music platform that uses the ethereum blockchain as the substrate for innovation by empowering artists, digitizing their music right and metadata, sharing this information in an open environment, thus enabling new applications, products, and services to license their catalogs and pay artists directly with minimal friction.
 
-## API Sponsors
+## API Partners
 
 ![](../.gitbook/assets/api-sponsors-logos.png)
 
@@ -26,7 +26,5 @@
 
 **Microsoft** was founded in 1975. Our mission is to enable people and businesses throughout the world to realize their full potential by creating technology that transforms the way people work, play, and communicate. We develop and market software, services, and hardware devices that deliver new opportunities, greater convenience, and enhanced value to people's lives.
 
-## Supporting Partners
-
-![](../.gitbook/assets/other-partners-logos.png)
+## Partner List To Be Updated 
 

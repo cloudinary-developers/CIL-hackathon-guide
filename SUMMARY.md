@@ -6,7 +6,7 @@
 
 * [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
 * [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
-* [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
+* [Participating Partners](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
 * [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
 
 ## Blueprints
