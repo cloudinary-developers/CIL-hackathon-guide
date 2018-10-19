@@ -15,6 +15,7 @@ All participants will have access to the state-of-the-art Capitol Recording Stud
 
 ## Steps to Success
 
+* [ ] Like Capitol360's [Facebook Page](https://www.facebook.com/CapitolMusic360/) and join the [Capitol360 Hackers Group](https://www.facebook.com/groups/527780350991187/)
 * [ ] Get a [Cloudinary](https://cloudinary.com/signup?utm_source=CMW&utm_medium=Gitbook&utm_campaign=Evangelism&utm_term=Hackathon-Guide&utm_content=Signup_CMW) Account and Credentials
 * [ ] Visit Cloudinary and 7Digital's Table at the Event to get add-on UPGRADE: [http://bit.ly/cmw-upgrade](http://bit.ly/cmw-upgrade)​ and additional API Keys
 * [ ] Join our[ Slack Channel](https://join.slack.com/t/cloudinarydevelopers/shared_invite/enQtMzcyODQ3NTMxMzAxLWIwNzlmZTQxMjNhYmZhOGNmNWY3NjExMGU1M2RmODAzOWIzMTY4YjhkOWQ2YzE0ZGIwNWM2NDk1ZTE5ZTdhOWU) - [http://bit.ly/cloudinary-developers-slack](http://bit.ly/cloudinary-developers-slack)
