@@ -32,5 +32,9 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 * A final round interview to participate in gener8tor’s 12-week Accelerator program with up to $90k in financing
 
+\*\*\*\*
+
+\*\*\*\*
+
 **MORE INFO TO COME**
 
