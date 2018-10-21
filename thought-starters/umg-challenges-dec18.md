@@ -1,6 +1,6 @@
 # UMG Challenges
 
-## **December 2018 Thought Starters** {#june-2-3-thought-starters}
+## **December 2018 Thought Starters** <a id="june-2-3-thought-starters"></a>
 
 ### **Theme**: Re-imagining Music Consumption and Discovery
 
@@ -16,7 +16,7 @@ _If you have an idea for a new Alexa skill, AR/VR immersive experience, music ga
 
 
 
-##  **June 2018 Thought Starters** {#june-2-3-thought-starters}
+##  **June 2018 Thought Starters** <a id="june-2-3-thought-starters"></a>
 
 1. Build an immersive catalog experience for Wayne Shorter
 2. Build an A&R Research Tool that can help us identify the small pockets of momentum globally. \(e.g. Heat map of band camp data / live metrics\)
