@@ -8,7 +8,7 @@ We're providing an interactive Playlisting Prototype and select assets from our 
 * Tones, Themes, Moods, and Similar Artists
 * Artist & UMG album artwork
 
-{% embed data="{\"url\":\"https://discovery-beta-admin-0.digitalsmiths.net/console/login\",\"type\":\"link\",\"title\":\"TiVo Personalized Content Discovery Engagement Console\",\"description\":\"The Personalized Content Discovery Engagement Console for managing Search & Recommendations\",\"icon\":{\"type\":\"icon\",\"url\":\"https://discovery-beta-admin-0.digitalsmiths.net/console/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="https://discovery-beta-admin-0.digitalsmiths.net/console/login" %}
 
 User: CapitalHackathon
 
