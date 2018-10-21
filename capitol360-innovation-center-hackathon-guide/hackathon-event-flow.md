@@ -4,7 +4,11 @@
 _Note this Event Flow is subject to change, please check back regularly for updates_
 {% endhint %}
 
-Dec 1
+**Nov 29-30**
+
+* All Day Access to Verizon's RYOT Studios for the 10 teams selected as finalists for the 5G Challenge
+
+**Dec 1**
 
 * 10:30AM Hacker Registration
 * 11:00AM - 12:30PM API Workshops / Office Hours / Industry 101 Workshop
