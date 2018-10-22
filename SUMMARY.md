@@ -20,7 +20,7 @@
 
 ## Cloudinary
 
-* [Cloudinary Guide](cloudinary/cloudinary-guide/README.md)
+* [Using Cloudinary](cloudinary/cloudinary-guide/README.md)
   * [Build a Cover Image](cloudinary/cloudinary-guide/build-a-cover-image.md)
   * [Video Transcoding](cloudinary/cloudinary-guide/video-transcoding.md)
   * [Image Optimization I](cloudinary/cloudinary-guide/image-optimization-i.md)

@@ -1,2 +1,2 @@
-# Cloudinary Guide
+# Using Cloudinary
 
