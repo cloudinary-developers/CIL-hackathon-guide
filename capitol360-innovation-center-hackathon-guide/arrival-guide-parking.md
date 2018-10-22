@@ -2,13 +2,14 @@
 
 ## API Training Workshop: November 6th
 
-| **Where** | UMG Headquarters - 2220 Colorado Ave, Los Angeles, CA 90404 \(Bob Marley Conference Room Floor 1\) |
+| **Where** | Capitol Records - 1750 Vine St, Los Angeles, CA 90028 |
 | :--- | :--- |
+| **Webinar** | Zoom Link TBD |
 | **When** | 10am - 2pm    |
 
 ## Hackathon: December 1st - 2nd
 
-| **Where** | Capitol Records - 1750 vine St, Los Angeles, CA 90028 |
+| **Where** | Capitol Records - 1750 Vine St, Los Angeles, CA 90028 |
 | :--- | :--- |
 | **Registration** | Saturday December 1st, 2018 at 10AM  |
 | **Mixer** | Sunday December 2nd, 2018 @ 5PM |
@@ -17,9 +18,7 @@
 
 ## Parking
 
-For the June 1st workshop, enter the underground garage below 2220 Colorado Ave, and take your car to Valet. Be sure to have your ticket validated by reception.
-
-For the June 2-3 Hackathon at 1750 Vine St, kindly note that parking is limited. If you're driving, enter through the gate on Argyle, and press the intercom button to check-in with security. Tell them your name and that you're here for the Capitol Hackathon. Please note that parking is limited and first come first serve until we hit capacity. 
+There will be very little parking so ubering is highly encouraged. 
 
 If you're ubering, please enter via the back gate beyond the mural on the south side of the Tower \(located on the same side as the Coast Lot in the below photo\).
 
