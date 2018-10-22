@@ -127,5 +127,5 @@ c_pad,f_auto,g_east,q_auto
 
 Now see how this technique might look on a web page with an interesting background:
 
-![](../.gitbook/assets/assets-lalyutnvnjys_90po7d-ld21yyxlknzpuzstv_y-ld2720vkeppdm9jyaij-transparent-background.png)
+![](../../.gitbook/assets/assets-lalyutnvnjys_90po7d-ld21yyxlknzpuzstv_y-ld2720vkeppdm9jyaij-transparent-background.png)
 

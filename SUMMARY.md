@@ -20,20 +20,21 @@
 
 ## Cloudinary
 
-* [Build a Cover Image](cloudinary/build-a-cover-image.md)
-* [Video Transcoding](cloudinary/video-transcoding.md)
-* [Webtask & Cloudinary](cloudinary/webtask-and-cloudinary/README.md)
-  * [Image Optimization I](cloudinary/webtask-and-cloudinary/image-optimization-i.md)
-  * [Categorizing Images](cloudinary/webtask-and-cloudinary/categorizing-images.md)
-  * [HTML5 Video Player](cloudinary/webtask-and-cloudinary/html5-video-player.md)
-  * [Media Authentication](cloudinary/webtask-and-cloudinary/media-authentication.md)
-  * [Image Optimization II](cloudinary/webtask-and-cloudinary/image-optimization-ii.md)
-  * [Content Moderation](cloudinary/webtask-and-cloudinary/content-moderation.md)
-  * [Neural Artwork](cloudinary/webtask-and-cloudinary/neural-artwork.md)
-  * [Artistic Filters](cloudinary/webtask-and-cloudinary/artistic-filters.md)
-  * [Distortion Effects](cloudinary/webtask-and-cloudinary/distortion-effects.md)
-  * [Audio to Waveform Images](cloudinary/webtask-and-cloudinary/audio-to-waveform-images.md)
-  * [Social and Cloud Sources](cloudinary/webtask-and-cloudinary/social-and-cloud-sources.md)
+* [Cloudinary Guide](cloudinary/cloudinary-guide/README.md)
+  * [Build a Cover Image](cloudinary/cloudinary-guide/build-a-cover-image.md)
+  * [Video Transcoding](cloudinary/cloudinary-guide/video-transcoding.md)
+  * [Image Optimization I](cloudinary/cloudinary-guide/image-optimization-i.md)
+  * [Categorizing Images](cloudinary/cloudinary-guide/categorizing-images.md)
+  * [HTML5 Video Player](cloudinary/cloudinary-guide/html5-video-player.md)
+  * [Media Authentication](cloudinary/cloudinary-guide/media-authentication.md)
+  * [Image Optimization II](cloudinary/cloudinary-guide/image-optimization-ii.md)
+  * [Content Moderation](cloudinary/cloudinary-guide/content-moderation.md)
+  * [Neural Artwork](cloudinary/cloudinary-guide/neural-artwork.md)
+  * [Artistic Filters](cloudinary/cloudinary-guide/artistic-filters.md)
+  * [Distortion Effects](cloudinary/cloudinary-guide/distortion-effects.md)
+  * [Audio to Waveform Images](cloudinary/cloudinary-guide/audio-to-waveform-images.md)
+  * [Social and Cloud Sources](cloudinary/cloudinary-guide/social-and-cloud-sources.md)
+  * [Webtask & Cloudinary](cloudinary/cloudinary-guide/webtask-and-cloudinary.md)
 
 ## 7Digital
 
