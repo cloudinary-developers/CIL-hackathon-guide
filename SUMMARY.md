@@ -50,11 +50,11 @@
 
 * [ConsenSys Hackathon Developer Guide](consensys/consensys-hackathon-developer-guide.md)
 
-## Microsoft
-
-* [Using Microsoft APIs](microsoft/using-microsoft-apis.md)
-
 ## Qloo
 
 * [Qloo Developer Guide](qloo/qloo-api-guide.md)
+
+## Microsoft
+
+* [Using Microsoft APIs](microsoft/using-microsoft-apis.md)
 
