@@ -25,7 +25,7 @@ At the end of the weekend, your team should develop a proof of concept prototype
   
 _**Technical Details for Participants \(Participant Facing\)**_   
   
-Verizon and RYOT will provide each team with a library of assets and shaders. One asset can be animated using Mocap and modified with shaders in post production. Verizon and RYOT will hire one professional dancer to be on hand, in a Mocap suit that each team will have an allotted amount of time to work with. Each team will also kick off the hackathon with a prebaked 3D hologram asset of the artist to include in their experience. The final deliverable should be a 360 experience in the form of an android app. Since  
+Verizon and RYOT will provide each team with a library of assets and shaders. One asset can be animated using Mocap and modified with shaders in post production. Verizon and RYOT will hire one professional dancer to be on hand, in a Mocap suit that each team will have an allotted amount of time to work with. Each team will also kick off the hackathon with a prebaked 3D hologram asset of the artist to include in their experience. The final deliverable should be a 360 experience in the form of an android app.   
   
 1. Assets that Verizon and RYOT will provide as a participant package for the HackFest 
 
@@ -50,4 +50,16 @@ a. Teams will compile their experiences in the virtual environment \(provided\) 
 b. Each project should be exported as an Android Build by the end of the HackFest
 
 c. Option to spacialize the audio
+
+
+
+**Some Inspiration**
+
+[Deluxe's Method Studios](https://vimeo.com/169599296)
+
+[Kool Keith X MF Doom](https://vimeo.com/187604216)
+
+[Volumetric Example](https://www.youtube.com/watch?v=lWLZ4RfUpTQ)
+
+[Low Quality Volumetric App](https://itunes.apple.com/us/app/fuse-it-ar-video-story-maker/id1294295138?mt=8)
 
