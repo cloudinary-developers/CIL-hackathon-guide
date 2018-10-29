@@ -30,9 +30,11 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ### TiVo **Challenge:**
 
-![](../../.gitbook/assets/tivo_lockup_blk_blue_2.png)
+![](../../../.gitbook/assets/tivo_lockup_blk_blue_2.png)
 
 * TBD prize to be awarded to the team that makes best use of TiVo's metadata 
+
+### 
 
 ### Gener8tor Final Round Interview
 
@@ -40,7 +42,7 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 \*\*\*\*
 
-\*\*\*\*
+### MORE INFO TO COME!!!
 
-**MORE INFO TO COME**
+
 
