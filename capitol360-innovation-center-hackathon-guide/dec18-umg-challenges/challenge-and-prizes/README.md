@@ -6,7 +6,7 @@
 
 Design and develop an immersive music experience that can only exist with 5G.  
 
-Over the course of the weekend, your team will be challenged to push the boundaries of immersive music experiences. Consider the music video of the future and unique ways to integrate spatialized audio and motion capture into music experiences. At the end of the weekend, your team should develop a proof of concept prototype, made possible by motion capture and spatial audio capture, with streaming over 5G.
+Over the course of the weekend, your team will be challenged to push the boundaries of immersive music experiences. Consider the music video of the future and unique ways to integrate spatialized audio and motion capture into music experiences. At the end of the weekend, your team should develop a proof of concept prototype that streams hi-res graphics, spatial audio, volumetric video capture, and motion-capture driven animations over the 5G network.
 
 **Prizes**
 
