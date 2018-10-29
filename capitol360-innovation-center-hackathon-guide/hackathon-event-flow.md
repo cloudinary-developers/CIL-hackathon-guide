@@ -28,5 +28,5 @@ _Note this Event Flow is subject to change, please check back regularly for upda
 * 2:30PM Demo Fair
 * 3:45PM Top 5 Finalists selected to pitch on stage
 * 4:30PM Judges Deliberate. Awards Announced
-* 5:00PM Finale Gaming Tournament and Artist Showcases
+* 5:00PM Finale Programming
 
