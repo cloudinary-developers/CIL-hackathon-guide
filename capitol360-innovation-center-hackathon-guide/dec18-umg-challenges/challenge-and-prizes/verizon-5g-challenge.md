@@ -1,6 +1,6 @@
 # Verizon 5G Challenge
 
-_**Creative Brief \(Participant Facing\)**_  
+_**Creative Brief**_ 
 
 _Design and develop an immersive music experience over 5G._  
 Verizon's fifth-generation \(5G\) wireless network will transform almost every industry. 5G will provide up to 1,000 times the bandwidth of today’s 4G LTE network and 20 times faster speeds along with near-instantaneous responsiveness. For music, 5G will unlock graphics-rich, interactive immersive experiences that weren’t possible on a mobile phone before.   
@@ -13,7 +13,7 @@ Your team will spend Thursday and Friday at RYOT’s 5G Lab to work in our motio
   
 
 
-_**Technical Details for Participants \(Participant Facing\)**_   
+_**Technical Details for Participants**_   
   
 Verizon and RYOT will provide each team with a library of assets and shaders. One asset can be animated using Mocap and modified with shaders in post production. Verizon and RYOT will hire one professional dancer to be on hand, in a Mocap suit that each team will have an allotted amount of time to work with. Each team will also kick off the hackathon with a prebaked 3D hologram asset of the artist to include in their experience. The final deliverable should be a 360 experience in the form of an android app.   
   
