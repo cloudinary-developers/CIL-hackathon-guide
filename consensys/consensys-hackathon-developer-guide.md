@@ -4,7 +4,11 @@
 ConsenSys is a global formation of technologists and entrepreneurs building the infrastructure, applications, and practices that enable a decentralized world.
 {% endhint %}
 
-## Ujo
+## Ujo Portal
+
+[https://documenter.getpostman.com/view/3729752/RWgxtZpC](https://documenter.getpostman.com/view/3729752/RWgxtZpC)
+
+## Ujo 
 
 Ujo is a music platform that uses the ethereum blockchain as the substrate for innovation by empowering artists, digitizing their music rights and metadata, sharing this information in an open environment, thus enabling new applications, products, and services to license their catalogs and pay artists directly with minimal friction.
 
