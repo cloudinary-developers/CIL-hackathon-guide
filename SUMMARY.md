@@ -5,7 +5,6 @@
 ## Capitol360 December 2018 Hackathon Guide
 
 * [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
-* [Participating Partners](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
 * [Challenges & Prizes](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/README.md)
   * [Dec'18 Challenges and Prizes](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/challenge-and-prizes/README.md)
     * [Verizon 5G Challenge](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/challenge-and-prizes/verizon-5g-challenge.md)
