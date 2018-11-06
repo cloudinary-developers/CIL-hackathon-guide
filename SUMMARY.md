@@ -5,9 +5,9 @@
 ## Capitol360 December 2018 Hackathon Guide
 
 * [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
-* [Challenges & Prizes](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/README.md)
-  * [Dec'18 Challenges and Prizes](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/challenge-and-prizes/README.md)
-    * [Verizon 5G Challenge](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/challenge-and-prizes/verizon-5g-challenge.md)
+* [Dec'18 Challenges](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/README.md)
+  * [Verizon 5G Challenge](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/verizon-5g-challenge.md)
+  * [Dec'18 Prizes](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/challenge-and-prizes.md)
 * [June'18 UMG Challenges](capitol360-innovation-center-hackathon-guide/umg-challenges-dec18/README.md)
   * [Immersive Wayne Shorter Catalog](capitol360-innovation-center-hackathon-guide/umg-challenges-dec18/immersive-wayne-shorter-catalog.md)
   * [Build an A&R research tool](capitol360-innovation-center-hackathon-guide/umg-challenges-dec18/build-an-a-and-r-research-tool.md)

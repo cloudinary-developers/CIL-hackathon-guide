@@ -1,4 +1,4 @@
-# Dec'18 Challenges and Prizes
+# Dec'18 Prizes
 
 ## Our generous partners are offering the following challenges and prizes:
 
@@ -30,7 +30,7 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ### TiVo **Challenge:**
 
-![](../../../.gitbook/assets/tivo_lockup_blk_blue_2.png)
+![](../../.gitbook/assets/tivo_lockup_blk_blue_2.png)
 
 * TBD prize to be awarded to the team that makes best use of TiVo's metadata 
 

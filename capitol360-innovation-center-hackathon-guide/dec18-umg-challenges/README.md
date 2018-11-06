@@ -1,4 +1,4 @@
-# Challenges & Prizes
+# Dec'18 Challenges
 
 ## D**ecember 2018 Thought Starters** <a id="june-2-3-thought-starters"></a>
 
