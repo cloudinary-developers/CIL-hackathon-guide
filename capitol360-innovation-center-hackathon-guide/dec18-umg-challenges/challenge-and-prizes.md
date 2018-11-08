@@ -32,7 +32,11 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ![](../../.gitbook/assets/tivo_lockup_blk_blue_2.png)
 
-* TBD prize to be awarded to the team that makes best use of TiVo's metadata 
+* 8x$200 Gift Certificates to be awarded to the teams that makes best use of TiVo's metadata 
+* Potential uses include:
+  * Use more than one TiVo Music descriptor for artists, albums, or tracks in your application – any combination of moods, styles, themes.
+  * Use more than one TiVo Music Artist association – any combination of ‘AssociatedWith’, ‘Collaborator With’, Contemporaries, Followers, Group Members, Influencers, Member Of, Similars
+  * Use the TiVo Music ‘Similar’ API to retrieve similar artists, albums, or songs \(requires use of an TiVo Artist/Name ID, Album ID, Track ID\)
 
 ### 
 
