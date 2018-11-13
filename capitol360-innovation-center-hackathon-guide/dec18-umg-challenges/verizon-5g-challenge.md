@@ -9,11 +9,11 @@ _**Creative Brief**_
 _Design and develop an immersive music experience over 5G._  
 Verizon's fifth-generation \(5G\) wireless network will transform almost every industry. 5G will provide up to 1,000 times the bandwidth of today’s 4G LTE network and 20 times faster speeds along with near-instantaneous responsiveness. For music, 5G will unlock graphics-rich, interactive immersive experiences that weren’t possible on a mobile phone before.   
   
-For Capitol’s HackFest 360, you will collaborate with an up-and-coming music artist to prototype and push the boundaries of immersive music experiences using the power of 5G. Consider the music video of the future and unique ways to integrate spatialized audio and motion capture into music experiences.   
+For Capitol’s HackFest 360, you will collaborate with an up-and-coming music artist to prototype and push the boundaries of immersive music experiences using the power of 5G. Consider the music video of the future and unique ways to integrate spatialized audio and volumetric video motion capture into music experiences.   
   
 At the end of the weekend, your team should develop a proof of concept prototype that streams hi-res graphics, spatial audio, volumetric video capture, and motion-capture driven animations over the 5G network. Your final deliverable should be an immersive music experience developed in Unity as an Android app. ​**Since we’re providing an asset package that includes Unity libraries, we highly recommend that every team uses Unity.** 
 
-Your team will spend Thursday and Friday at RYOT’s 5G Lab to work in our motion-capture studio and Unity workstations. On Saturday, we’ll collaborate at Capitol records so you can add the finishing touches to your build. Before judging happens on Sunday, we’ll hit the streets of downtown LA and test out your prototypes on Verizon’s live 5G network.  
+Your team will spend Thursday and Friday at RYOT’s 5G Lab to work in Verizon's motion-capture studio and Unity workstations. On Saturday, you’ll collaborate at Capitol records so you can add the finishing touches to your build. Before judging happens on Sunday, we’ll hit the streets of downtown LA and test out your prototypes on Verizon’s live 5G network.  
   
 
 
