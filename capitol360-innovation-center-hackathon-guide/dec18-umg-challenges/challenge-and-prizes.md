@@ -40,6 +40,12 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ### 
 
+### Spotify 
+
+* Most creative use of the Spotify developer platform
+
+\*\*\*\*
+
 ### Gener8tor Final Round Interview
 
 * A final round interview to participate in gener8tor’s 12-week Accelerator program with up to $90k in financing
