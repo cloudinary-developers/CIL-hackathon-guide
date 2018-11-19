@@ -1,4 +1,4 @@
-# Capitol 360 Innovation Center Hackathon Guide
+# Capitol Royale Innovation Center Hackathon Guide
 
 ![](.gitbook/assets/capitol360-dec.jpg)
 

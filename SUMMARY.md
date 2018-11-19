@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Capitol 360 Innovation Center Hackathon Guide](README.md)
+* [Capitol Royale Innovation Center Hackathon Guide](README.md)
 
 ## Capitol360 December 2018 Hackathon Guide
 
