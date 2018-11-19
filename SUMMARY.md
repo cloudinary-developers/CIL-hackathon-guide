@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Capitol Royale Innovation Center Hackathon Guide](README.md)
+* [Capitol Royale 2018 Hackathon Guide](README.md)
 
-## Capitol360 December 2018 Hackathon Guide
+## Capitol Royale 2018 Hackathon Guide
 
 * [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
 * [Dec'18 Challenges](capitol360-innovation-center-hackathon-guide/dec18-umg-challenges/README.md)
@@ -36,6 +36,7 @@
   * [Audio to Waveform Images](cloudinary/cloudinary-guide/audio-to-waveform-images.md)
   * [Social and Cloud Sources](cloudinary/cloudinary-guide/social-and-cloud-sources.md)
   * [Webtask & Cloudinary](cloudinary/cloudinary-guide/webtask-and-cloudinary.md)
+* [Cloudinary API: Workshop Deck](cloudinary/cloudinary-api-workshop-deck.md)
 
 ## 7Digital
 
