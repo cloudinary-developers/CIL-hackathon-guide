@@ -1,4 +1,4 @@
-# Using 7Digital API
+# UMG Catalog / 7digital API
 
 ## 
 
