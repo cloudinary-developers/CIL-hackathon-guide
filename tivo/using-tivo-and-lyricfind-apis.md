@@ -4,44 +4,6 @@
 
 > At TiVo, we’re always innovating to create the ultimate entertainment experience. When it comes to music, we deliver the personalized, engaging listening experiences fans can’t resist. Our best-in-class Music Metadata covers millions of albums and tracks, and offers standardized IDs, unique descriptors, high-quality imagery and more. Streaming providers can enhance their services, while labels, publishers and distributors can more effectively market and merchandise their catalogs. Around the world, leading brands choose TiVo to deliver the music fans want and introduce them to their next obsession, creating loyal customers in the process.
 
-Update: We're providing our artist IDs for all producers and singer/songwriters here at the Hackathon !
-
-**Producer**
-
-Don Was - MN0000802522
-
-[http://cps-static.rovicorp.com/3/JPG\_1080/MI0001/395/MI0001395995.jpg?partner=allrovi.com](http://cps-static.rovicorp.com/3/JPG_1080/MI0001/395/MI0001395995.jpg?partner=allrovi.com)
-
-**Singer/Songwriter**
-
-Harloe - MN0003637876
-
-[http://cps-static.rovicorp.com/3/JPG\_SRC/MI0004/255/MI0004255946.jpg?partner=allrovi.com](http://cps-static.rovicorp.com/3/JPG_SRC/MI0004/255/MI0004255946.jpg?partner=allrovi.com)
-
-**Producer Discography, Credits**
-
-Dion Wilson - MN0002363135
-
-Fernando Garibay - MN0000722658
-
-Miro - MN0001382626
-
-Max Heubel - MN0001900061
-
-Troy Noka - MN0003011869
-
-Sorry Jaynari - MN0003616760
-
-**Singer/SongwriterDiscography, Credits**
-
-8Eight - MN0002690528
-
-Rush Davis - MN0003260138
-
-Justin Jesso - MN0003683958
-
-Simon Wilcox - MN0000644975
-
 **TiVo Music** API Documentation
 
 You may know of us from our former name, AMG/Rovi, and a website that was formerly a property of ours which features our music metadata \([allmusic.com](https://www.allmusic.com)\).
@@ -54,7 +16,13 @@ API Key - 7d9vkau5knchkpa4z9pkcg7d
 
 API Secret - mmj58xRfZw
 
-If you're using our APIs outside of the Cloudinary sample application, use the following JavaScript example that combines the API Key/Secret with the MD5 library here - [http://developer.rovicorp.com/files/md5\_2.js](http://developer.rovicorp.com/files/md5_2.js) .
+TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from above to return a JSON response from any of the API endpoints in the list.
+
+For example, use the 'Name ID' to retrieve artist styles, themes, moods, etc. using the 'Name' API \(scroll toward the end of the IO-Docs page\) - Wayne Shorter = Name ID MN0000250435 \(for 'include' enter musicStyles,moods,themes\).
+
+If you're using our APIs outside of the Cloudinary sample application, we provide the following tool to help create your own API signature since all requests require a combination of the API Key and API Signature  - [http://developer.rovicorp.com/siggen](http://developer.rovicorp.com/siggen)
+
+Alternatively, use the following JavaScript example that combines the API Key/Secret with the MD5 library here - [http://developer.rovicorp.com/files/md5\_2.js](http://developer.rovicorp.com/files/md5_2.js) .
 
     function genSig\(\) {
 
@@ -72,17 +40,11 @@ If you're using our APIs outside of the Cloudinary sample application, use the f
 
 }
 
-Alternatively, you can use the following node.js function - Math.floor\(new Date\(\) / 1000\) to create a UNIX epoch timestamp and then concatenate it with our API Key/Secret.  Use a MD5 hash on the entire string to create your signature.
+You can also use the following node.js function - Math.floor\(new Date\(\) / 1000\) to create a UNIX epoch timestamp and then concatenate it with our API Key/Secret.  Use a MD5 hash on the entire string to create your signature.
 
 Although the majority of the APIs that will be needed for your use-case are already a part of the Cloudinary application, we're providing complete API documentation below on all of our various APIs.
 
 >
-
-TiVo Music API Console - this can be used to quickly preview all of our different types of music metadata without having to write any code !  Click on the following link and choose 'Metadata and Search APIs' from the drop-down menu - [http://developer.rovicorp.com/io-docs](http://developer.rovicorp.com/io-docs).  Enter the API Key and Secret from above to return a JSON response from any of the API endpoints in the list.
-
-For example, use the 'Name ID' to retrieve artist styles, themes, moods, etc. using the 'Name' API \(scroll toward the end of the IO-Docs page\) - Wayne Shorter = Name ID MN0000250435 \(for 'include' enter musicStyles,moods,themes\).
-
-If you're using our APIs outside of the Cloudinary sample application, we provide the following tool to create your own API signature since all requests require a combination of the API Key and API Signature  - [http://developer.rovicorp.com/siggen](http://developer.rovicorp.com/siggen)
 
 **LyricFind** API Documentation
 
@@ -96,11 +58,11 @@ If the ISRC can't be used to retrieve track lyrics, use the 'AMG' T\_ID from the
 
 [http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:26901151&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4](http://api.lyricfind.com/lyric.do?apikey=14c9a53ff33f0adf99435f207d9c4b2f&territory=US&reqtype=default&trackid=amg:26901151&format=lrc&lrckey=230ac06cba8d3ecd6996466e8356b6e4)
 
-**Cheat** **Sheet** of all artists/albums/tracks used for the Capitol360 Hackathon Catalog
+**Cheat** **Sheet** of all artists/albums/tracks used for the Capitol Royale Hackathon Catalog
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB or to simply preview the artists, albums, and tracks in the catalog.
 
-{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbyyXIbfNvjStvG7Jlhv5M2djSEsc\_YU0cTA5K6NYtabPgtxojrZBTHeyiTAAJ9BDfgToRKYbnh039/pubhtml" %}
+[https://docs.google.com/spreadsheets/d/1NO7v6o58JAPjpRJuHQh86pIrI69dCKaobZby-6XpGps/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1NO7v6o58JAPjpRJuHQh86pIrI69dCKaobZby-6XpGps/edit?usp=sharing)
 
 **TiVo Music ID** Breakdown
 
@@ -126,7 +88,7 @@ Without A Net = Album ID MW0002445530 - credits, moods, review, releases, styles
 
 'SI' - Composition ID -   TiVo's Composition ID isn't used as part of our API however it can be used to create a unique discovery experience using cover songs across genre boundaries.  For example, the song 'Ain't No Sunshine' has been covered by numerous artists over the years and we now give you the ability to easily find all covers for this song in the catalog since they share the same Composition ID.
 
-The Composition ID 'SI0005189120' represents this song and using the Cheat Sheet above, we can see it has been covered by all of the following artists in the Capitol360 Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.  Use the ISRC with the 7Digital to stream all of these covers.
+The Composition ID 'SI0005189120' represents this song and using the Cheat Sheet above, we can see it has been covered by all of the following artists in the Capitol Royale Catalog - Michael Jackson, Anthony Billups, Bill Withers, David Holmes, Jackyl, Lighthouse Family, Roy Ayers, The Neville Brothers.  Use the ISRC with the 7Digital to stream all of these covers.
 
 If you don't have an artist ID, UPC or album ID, ISRC or TrackID, it's still possible to retrieve artist/album/song information using one of the following:
 
@@ -146,15 +108,15 @@ In the following example, we're using the song, 'Tangled' by Maroon 5 - adding t
 
 Use the below link and choose File&gt;Download As&gt;CSV to import a CSV into your SQL/Mongo DB for a master list of all TiVo Music genres, subgenres, and styles - this can come in handy to create a genre/subgenre/style map or discovery experience.
 
-{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRn9fTzFh3xAcd4HTEe58YUDZOAs73SyISSAsjaNJleyPc7W7wSoMHyMcHnuj8uadwEwLqQCU8N-n\_q/pubhtml" %}
+[https://docs.google.com/spreadsheets/d/1PgrGIifacbLokkh7mZgjU2JIi1zUGdVA0HMx4wlJIGs/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1PgrGIifacbLokkh7mZgjU2JIi1zUGdVA0HMx4wlJIGs/edit?usp=sharing)
 
 **Cheat Sheet** - Master Moods List
 
-{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vQuXROb4bz9zrXrewjUnspdteGPoawuLMkUz3PcJRgkG5ZNJtjB7qTCw5tRzQs7IJt-Wxh02MUZ-d2i/pubhtml" %}
+[https://docs.google.com/spreadsheets/d/1K\_o6rKLHZ5zTkGbxLRw9ERXzpX3SfnKQSjKIKKaQHtM/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1K_o6rKLHZ5zTkGbxLRw9ERXzpX3SfnKQSjKIKKaQHtM/edit?usp=sharing) 
 
 **Cheat Sheet** - Master Themes List
 
-[https://docs.google.com/spreadsheets/d/e/2PACX-1vREqa\_kWdxbPxj8s1EQTKAm4\_pl7qQ4KOQ\_q8q9u-qeVelj9Ftjm5ly2o8FavWQH\_e-IHneq-wr1LIg/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vREqa_kWdxbPxj8s1EQTKAm4_pl7qQ4KOQ_q8q9u-qeVelj9Ftjm5ly2o8FavWQH_e-IHneq-wr1LIg/pubhtml)
+[https://docs.google.com/spreadsheets/d/1OMA091NxeAFpOUAfPBU6AoP4iixNg3y1lDFK\_u9G2gk/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1OMA091NxeAFpOUAfPBU6AoP4iixNg3y1lDFK_u9G2gk/edit?usp=sharing) 
 
 **Real-Time** **Trending & All-Time Popularity**
 
