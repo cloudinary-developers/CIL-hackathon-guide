@@ -42,7 +42,7 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 ### Spotify 
 
-* Most creative use of the Spotify developer platform
+* Prizes will be awarded to teams who demonstrate the most creative use of the Spotify developer platform
 
 \*\*\*\*
 
