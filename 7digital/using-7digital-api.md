@@ -1,96 +1,157 @@
-# Using 7Digital API
+---
+description: >-
+  This guide describes how to use the 7digital API endpoints to access the UMG
+  catalog made available for this hackathon
+---
 
-## Overview
+# UMG Catalog / 7digital API
 
-**Capitol Music Group and its parent Universal Music Group have made a catalog of their songs available for the Hackathon**
+## Overview <a id="overview"></a>
 
-* ≈ 1,500 unique artists \(US and Canadian\)
-* ≈ 4,500 different albums/singles - all with cover artwork
-* ≈ 14,000 tracks - all with full length audio streams
-* The 7digital API’s can be used to
-  * Browse the catalog by Artist and then find tracks for that artist
-  * Stream the full-length audio for all tracks
-  * Access cover artwork image files for all albums and singles in the catalog
-* Each team will be given an API key and secret to access the APIs
-  * Only the API key is required to browse the catalog
-  * However, in order to stream the audio you will need to sign the API call with your key and secret
+**Universal Music Group have made a some of their songs available for this hackathon**
 
-## **Important Information**
+* ≈ 20,000 songs
+* ≈ 1,500 unique artists
+* ≈ 5,000 albums/singles
+* Covers many genres, rock, pop, country....etc
+* Spans each decade from 1960's to present
 
-* API Keys 
-  * **`Key = 7d4vr6cgb392`**
-  * **`Secret = m4ntskavq56rddsa`**
-* You need to add the following parameter to all API calls
-  * **`&shopId=2020`**
-* When calling track and release endpoints, always use parameter
-  * **`&usageTypes=adsupportedstreaming`**
-* Terminology
-  * **Release = Album or Single**
+**7digital have activated some of their API endpoints to get access to the UMG catalog**
 
-## API Schema
+* Browse catalog and discover artists, albums and tracks
+* Get data for artists, albums and tracks - artist name, album title, track name
+* Retrieve album artwork \(CD covers\) for every album in the catalog
+* Stream full length audio files for every song in the catalog
 
-![](../.gitbook/assets/cmw-hackaton-7digital-api-overview-team-3.jpg)
+## API Architecture <a id="api-architecture"></a>
 
-## Catalog Endpoints
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMw7rB6tN87JH_K_qhA%2F-LMwD1UzpvNzajWkgi6a%2F-LMwIvwUUzcirU0BfUue%2FScreen%20Shot%202018-09-21%20at%2014.26.15.png?alt=media&token=81fbb381-48d4-42e1-b095-abfd1ba61346)
 
-| **Link to Documentation** | **Description & Sample Call** |
+## Catalog Schema <a id="catalog-schema"></a>
+
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMw7rB6tN87JH_K_qhA%2F-LMwJ5tFgIIrT6EIKcxI%2F-LMwJqfMuRaZCPrkgRcX%2FScreen%20Shot%202018-09-21%20at%2014.30.11.png?alt=media&token=149c79a7-6abb-4b0f-a092-ae80d82e0d0e)
+
+**​**[**List of catalog metadata can be found on this page**](https://7digital.gitbook.io/api-doc/catalog-metadata-available)**​**
+
+## Accessing UMG Catalog using 7digital API <a id="accessing-umg-catalog-using-7digital-api"></a>
+
+**Access to UMG catalog using 7digital services \(API\)**
+
+* Provided through a REST style interface
+* Controlled by a consumer key that needs to passed in as a parameter
+* **`consumer_key = 7d4vr6cgb392`**
+* Identified by a shop identifier that needs to be passed in as a parameter
+* **`shopId = 2020`**
+
+**Streaming audio files requires API requests to be signed with an oauth 1.0 signature**
+
+* Sign requests using consumer key and secret
+* **`consumer_key = 7d4vr6cgb392`**
+* **`consumer_secret = m4ntskavq56rddsa`**
+
+## Sample API Call <a id="sample-api-call"></a>
+
+​[http://api.7digital.com/1.2/artist/search?shopId=2020&oauth\_consumer\_key=7d4vr6cgb392&q=john](http://api.7digital.com/1.2/artist/search?shopId=2020&oauth_consumer_key=7d4vr6cgb392&q=john)​
+
+| Call Components | Meaning |
 | :--- | :--- |
-| [**GET /artist/browse**](http://docs.7digital.com/#_artist_browse_get) | **Returns a list of artists whose names match the start letter\(s\) supplied  -** [**http://api.7digital.com/1.2/artist/browse?letter=p&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/browse?letter=k&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
-| [**GET /artist/search**](http://docs.7digital.com/#_artist_search_get) | **Returns a list of artists that match query string -**  [**http://api.7digital.com/1.2/artist/search?q=kiss&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/search?q=kiss&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
-| [**GET /artist/details**](http://docs.7digital.com/#_artist_details_get) | **Returns metadata for a specific artist -**  [**http://api.7digital.com/1.2/artist/details?artistId=298&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/details?artistId=298&shopId=2020&oauth_consumer_key=7d4vr6cgb392) |
-| [**GET /artist/releases**](http://docs.7digital.com/#_artist_releases_get) | **Returns a list of streamable releases for a specific artist** [**http://api.7digital.com/1.2/artist/releases?artistId=298&shopId=2020&usageTypes=adsupportedstreaming&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/releases?artistId=298&shopId=2020&usageTypes=adsupportedstreaming&oauth_consumer_key=7d4vr6cgb392) |
-| [**GET /artist/toptracks**](http://docs.7digital.com/#_artist_toptracks_get) | **Returns a list of top tracks for a specific artist** [**http://api.7digital.com/1.2/artist/toptracks?artistId=298&shopId=2020&usageTypes=adsupportedstreaming&oauth\_consumer\_key=7d4vr6cgb392**](http://api.7digital.com/1.2/artist/toptracks?artistId=298&shopId=2020&usageTypes=adsupportedstreaming&oauth_consumer_key=7d4vr6cgb392) |
-| [**GET /release/details**](http://docs.7digital.com/#_release_details_get) | **Returns metadata for a specific release** [**http://api.7digital.com/1.2/release/details?releaseId=1927424&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392&usageTypes=adsupportedstreaming&imageSize=800**](http://api.7digital.com/1.2/release/details?releaseId=1927424&shopId=2020&oauth_consumer_key=7d4vr6cgb392&usageTypes=adsupportedstreaming&imageSize=800) |
-| [**GET /release/tracks**](http://docs.7digital.com/#_release_tracks_get) | **Returns list of tracks for a specific release** [**http://api.7digital.com/1.2/release/tracks?releaseId=1927424&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392&usageTypes=adsupportedstreaming**](http://api.7digital.com/1.2/release/tracks?releaseId=1927424&shopId=2020&oauth_consumer_key=7d4vr6cgb392&usageTypes=adsupportedstreaming) |
-| [**GET /track/details**](http://docs.7digital.com/#_track_details_get) | **Returns metadata for a specific track** [**http://api.7digital.com/1.2/track/details?trackId=5075620&shopId=2020&oauth\_consumer\_key=7d4vr6cgb392&usageTypes=adsupportedstreaming**](http://api.7digital.com/1.2/track/details?trackId=5075620&shopId=2020&oauth_consumer_key=7d4vr6cgb392&usageTypes=adsupportedstreaming) |
+| http://api.7digital.com/1.2 | 7digital API site and version |
+| artist/search | API endpoint name - search artists |
+| ?shopId=2020 | Parameter to identify UMG catalog |
+| &oauth\_consumer\_key=7d4vr6cgb392 | Parameter for consumer key |
+| &q=john | Parameter for search query string |
 
-For JSON responses
+## API Endpoint List  <a id="api-endpoint-list"></a>
 
-* **`Add “accept: application/json” to your http header request`**
-* **`curl -H “Accept: application/json” ‘`**[**`http://api.7digital.com…`**](about:blank)**`..’`**
+The following table lists the endpoints that we have made available for this hackathon. For each endpoint there is a sample call that works and returns real results. Click on these links to see how each call is constructed and obtain the call responses
 
-## Accessing Album/Single Cover Art
-
-**The release endpoint responses return a link to the album artwork - example from \(1st\) call above**
-
-[**http://artwork-cdn.7static.com/static/img/sleeveart/00/019/274/0001927424\_800.jpg**](http://artwork-cdn.7static.com/static/img/sleeveart/00/019/274/0001927424_800.jpg)
-
-Sizes available - 33, 50, 100, 180, 182, 200, 350, 500 and 800 pixels
-
-_The size of images returned by any API response can be adjusted by adding imageSize parameter to the request_
-
-## Catalog Metadata
-
-![](../.gitbook/assets/sxsw-hackaton-7digital-api-overview-wmg-version-3.jpg)
-
-## Streaming Audio
-
-To stream a track you will need to build your own API call to the 7digital streaming service
-
-* All streaming links need to be "Oauth" signed using the API Key & Secret
-* _**Once generated a streaming link is only valid for 60 minutes and can only be used once**_ 
-
-In order to stream a specific track you must specify a 7digital trackId
-
-* 7digital trackId's are returned by the catalog search API endpoints
-
-Documentation on how to build a streaming link can be found here -  [GET /stream/catalogue](http://docs.7digital.com/#_stream_catalogue_get) 
-
-This is what a typical streaming link looks like - \(note this link does not work\)[**`https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994&oauth_consumer_key=7d4vr6cgb392&oauth_nonce=302909674&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1520701629&oauth_version=1.0&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc`**](https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994%20&oauth_consumer_key=7d4vr6cgb392%20&oauth_nonce=302909674%20&oauth_signature_method=HMAC-SHA1%20&oauth_timestamp=1520701629&oauth_version=1.0%20&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D)
-
-## Building & Signing Streaming Links
-
-To help build streaming links and sign them with Oauth headers we have a form that you can use here - [**7digital Oauth signature reference**](http://7digital.github.io/oauth-reference-page/)
-
-Here is an example of how to complete that form
-
-![](../.gitbook/assets/cil-oauth-form-example.jpg)
-
-## Streaming Parts Of a Track
-
-If you want to stream part of a track \(clip\) then you can use the range request on your streaming link
-
-`curl -v -o partial.mp4 -H "Range:bytes=81920-" "{url to aac stream}"`
-
-Please note - you'll need to calculate the number of bytes that you want to start and/or finish at 
-
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Endpoint</th>
+      <th style="text-align:left">Use</th>
+      <th style="text-align:left">Sample Call</th>
+      <th style="text-align:left">Main Parameter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Artist browse</td>
+      <td style="text-align:left">Browse the catalog for artist names that start with supplied text string</td>
+      <td
+      style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/browse?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;letter=ki">GET artist/browse</a>​</td>
+        <td
+        style="text-align:left">letter={text}</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Artist search</td>
+      <td style="text-align:left">Search the catalog for artists that match a supplied text string</td>
+      <td
+      style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john">GET artist/search</a>​</td>
+        <td
+        style="text-align:left">q={text}</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Artist releases</td>
+      <td style="text-align:left">Returns a list of streamable releases for a specific artist</td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/releases?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;artistId=1448&amp;usageTypes=adsupportedstreaming">GET artist/releases</a>​</td>
+      <td
+      style="text-align:left">
+        <p>&artistId={int}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Artist toptracks</td>
+      <td style="text-align:left">Returns a list of streamable tracks for a specific artist</td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/toptracks?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;artistId=1448&amp;usageTypes=adsupportedstreaming">GET artist/toptracks</a>​</td>
+      <td
+      style="text-align:left">
+        <p>&artistId={int}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Release search</td>
+      <td style="text-align:left">
+        <p>Search the catalog for releases</p>
+        <p>that match a supplied text string</p>
+      </td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/release/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john&amp;usageTypes=adsupportedstreaming">GET release/search</a>​</td>
+      <td
+      style="text-align:left">
+        <p>&q={text}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Release tracks</td>
+      <td style="text-align:left">Returns a list of streamable tracks for a specific release</td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/release/tracks?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;releaseId=5726299&amp;usageTypes=adsupportedstreaming">GET release/tracks</a>​</td>
+      <td
+      style="text-align:left">
+        <p>&releaseId={int}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Track search</td>
+      <td style="text-align:left">Search the catalog for releases that match a supplied text string</td>
+      <td
+      style="text-align:left">​<a href="http://api.7digital.com/1.2/track/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john&amp;usageTypes=adsupportedstreaming">GET track/search</a>​</td>
+        <td
+        style="text-align:left">
+          <p>&q={text}</p>
+          <p>&usageTypes=adsupportedstreaming</p>
+          </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Track stream</td>
+      <td style="text-align:left">Stream full length (or partial clip) audio for a specific track</td>
+      <td
+      style="text-align:left"><b>See later page</b>
+        </td>
+        <td style="text-align:left">&trackId={int}</td>
+    </tr>
+  </tbody>
+</table>

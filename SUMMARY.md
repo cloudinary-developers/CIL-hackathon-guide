@@ -40,7 +40,7 @@
 
 ## 7Digital
 
-* [Using 7Digital API](7digital/using-7digital-api.md)
+* [UMG Catalog / 7digital API](7digital/using-7digital-api.md)
 
 ## Tivo
 
