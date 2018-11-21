@@ -51,6 +51,10 @@
 
 * [ConsenSys Hackathon Developer Guide](consensys/consensys-hackathon-developer-guide.md)
 
+## Spotify
+
+* [Spotify API](spotify/spotify-api.md)
+
 ## Qloo
 
 * [Qloo Developer Guide](qloo/qloo-api-guide.md)
