@@ -4,43 +4,17 @@
 
 > At TiVo, we’re always innovating to create the ultimate entertainment experience. When it comes to music, we deliver the personalized, engaging listening experiences fans can’t resist. Our best-in-class Music Metadata covers millions of albums and tracks, and offers standardized IDs, unique descriptors, high-quality imagery and more. Streaming providers can enhance their services, while labels, publishers and distributors can more effectively market and merchandise their catalogs. Around the world, leading brands choose TiVo to deliver the music fans want and introduce them to their next obsession, creating loyal customers in the process.
 
-Update: We're providing our artist IDs for all producers and singer/songwriters here at the Hackathon !
+\*\*\*\*
 
-**Producer**
+**TiVo Challenge**
 
-Don Was - MN0000802522
+* 8x$200 Gift Certificates to be awarded to the team\(s\) that makes best use of TiVo's metadata 
+* Potential uses include:
+  * Use more than one TiVo Music descriptor for artists, albums, or tracks in your application – any combination of moods, styles, themes.
+  * Use more than one TiVo Music Artist association – any combination of ‘AssociatedWith’, ‘Collaborator With’, Contemporaries, Followers, Group Members, Influencers, Member Of, Similars
+  * Use the TiVo Music ‘Similar’ API to retrieve similar artists, albums, or songs \(requires use of an TiVo Artist/Name ID, Album ID, Track ID\)
 
-[http://cps-static.rovicorp.com/3/JPG\_1080/MI0001/395/MI0001395995.jpg?partner=allrovi.com](http://cps-static.rovicorp.com/3/JPG_1080/MI0001/395/MI0001395995.jpg?partner=allrovi.com)
-
-**Singer/Songwriter**
-
-Harloe - MN0003637876
-
-[http://cps-static.rovicorp.com/3/JPG\_SRC/MI0004/255/MI0004255946.jpg?partner=allrovi.com](http://cps-static.rovicorp.com/3/JPG_SRC/MI0004/255/MI0004255946.jpg?partner=allrovi.com)
-
-**Producer Discography, Credits**
-
-Dion Wilson - MN0002363135
-
-Fernando Garibay - MN0000722658
-
-Miro - MN0001382626
-
-Max Heubel - MN0001900061
-
-Troy Noka - MN0003011869
-
-Sorry Jaynari - MN0003616760
-
-**Singer/SongwriterDiscography, Credits**
-
-8Eight - MN0002690528
-
-Rush Davis - MN0003260138
-
-Justin Jesso - MN0003683958
-
-Simon Wilcox - MN0000644975
+\*\*\*\*
 
 **TiVo Music** API Documentation
 
