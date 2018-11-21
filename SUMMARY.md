@@ -45,6 +45,8 @@
 * [UMG Catalog / 7digital API](7digital/using-7digital-api.md)
 * [API Specifics](7digital/api-specifics.md)
 * [Streaming Audio Files](7digital/streaming-audio-files.md)
+* [Catalog Metadata Available](7digital/catalog-metadata-available.md)
+* [API Error Codes & Messages](7digital/api-error-codes-and-messages.md)
 
 ## Tivo
 
